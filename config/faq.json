@@ -59,5 +59,9 @@
   "wolfsend": {
     "message": "<https://feedback.minecraft.net/hc/en-us/community/posts/360018818112-Your-Wolf-Sending-A-Item-To-Another-Player-wolfsend-item-player->",
     "tags": "memes"
+  },
+  "player slots": {
+    "message": "<https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/b/b2/Items_slot_number.png?version=ef44f4a9d557e1d793780c5674ac76ec>",
+    "tags": "player slots inventory nbt"
   }
 }
