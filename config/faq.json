@@ -51,5 +51,13 @@
       "<https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205>"
     ],
     "tags": "resourcepack resourcepacks resource pack packs structure format layout"
+  },
+  "butts": {
+    "message": "<https://twitter.com/Dinnerbone/status/1053367619074560002>",
+    "tags": "memes"
+  },
+  "wolfsend": {
+    "message": "<https://feedback.minecraft.net/hc/en-us/community/posts/360018818112-Your-Wolf-Sending-A-Item-To-Another-Player-wolfsend-item-player->",
+    "tags": "memes"
   }
 }
