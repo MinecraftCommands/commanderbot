@@ -63,5 +63,16 @@
   "player slots": {
     "message": "<https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/b/b2/Items_slot_number.png?version=ef44f4a9d557e1d793780c5674ac76ec>",
     "tags": "player slots inventory nbt"
+  },
+  "range": {
+    "message": "`1` = exactly 1\n`1..` = 1 or more\n`..1` = 1 or less\n`1..10` = 1 to 10",
+    "tags": "range"
+  },
+  "json string": {
+     "message": "As of 1.13 item names and CustomNames for entities started using JSON text components. They still need to be stored in a string, because NBT cannot store direct JSON. An example looks like this: `\"{\\\"color\\\":\\\"blue\\\",\\\"text\\\":\\\"example\\\"}\"`. If you don't care about colors and formatting and just want plain text, you can use this shortcut: `\"\\\"example\\\"\"`",
+    "tags": "json string textcomponent text components"
+  },
+  "escaping": {
+    "message": "When you need a string to contain special characters that normally indicate special behavior for the parser, you need to escape those characters. For example, if you want to put `This is an \"example\" string` inside a string, you need to escape the quotes to tell the parser that those quotes are part of the string. You do that by preceding the character with a \\: `\"This is an \\\"example\\\" string\"`"
   }
 }
