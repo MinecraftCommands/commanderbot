@@ -16,39 +16,39 @@
     "tags": "shorthand"
   },
   "chunk format": {
-    "message": "<https://minecraft.gamepedia.com/Chunk_format>",
+    "message": "https://minecraft.gamepedia.com/Chunk_format",
     "tags": "chunk nbt format structure schema wiki"
   },
   "player format": {
-    "message": "<https://minecraft.gamepedia.com/Player.dat_format>",
+    "message": "https://minecraft.gamepedia.com/Player.dat_format",
     "tags": "player nbt format structure schema wiki"
   },
   "item format": {
-    "message": "<https://minecraft.gamepedia.com/Player.dat_format#Item_structure>",
+    "message": "https://minecraft.gamepedia.com/Player.dat_format#Item_structure",
     "tags": "item nbt format structure schema wiki"
   },
   "debugging tips": {
-    "message": "<https://www.reddit.com/r/MinecraftCommands/wiki/debugging>",
+    "message": "https://www.reddit.com/r/MinecraftCommands/wiki/debugging",
     "tags": "debugging"
   },
   "game log": {
     "message": [
-      "<https://i.imgur.com/vfwl8FX.png>",
-      "<https://discordapp.com/channels/154777837382008833/157097006500806656/510122766565900288>"
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510122766565900288",
+      "https://i.imgur.com/vfwl8FX.png"
     ],
     "tags": "game output log gamelog debugging"
   },
   "datapack structure": {
     "message": [
-      "<https://i.imgur.com/8iKnwnr.png>",
-      "<https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906>"
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
+      "https://i.imgur.com/8iKnwnr.png"
     ],
     "tags": "datapack datapacks data pack packs structure format layout"
   },
   "resourcepack structure": {
     "message": [
-      "<https://i.imgur.com/2Ksb7vj.png>",
-      "<https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205>"
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205",
+      "https://i.imgur.com/2Ksb7vj.png"
     ],
     "tags": "resourcepack resourcepacks resource pack packs structure format layout"
   },
@@ -61,7 +61,7 @@
     "tags": "memes"
   },
   "player slots": {
-    "message": "<https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/b/b2/Items_slot_number.png?version=ef44f4a9d557e1d793780c5674ac76ec>",
+    "message": "https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/b/b2/Items_slot_number.png?version=ef44f4a9d557e1d793780c5674ac76ec",
     "tags": "player slots inventory nbt"
   },
   "range": {
