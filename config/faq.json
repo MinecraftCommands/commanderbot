@@ -82,5 +82,9 @@
   "escaping": {
     "message": "When you need a string to contain special characters that normally indicate special behavior for the parser, you need to escape those characters. For example, if you want to put `This is an \"example\" string` inside a string, you need to escape the quotes to tell the parser that those quotes are part of the string. You do that by preceding the character with a \\: `\"This is an \\\"example\\\" string\"`",
     "tags": "json string text components escaping"
+  },
+  "marker aec": {
+    "message": "The following area_effect_cloud won't have particles and will last ~6.8 years: ```/summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648}```",
+    "tags": "marker aec area_effect_cloud duration"
   }
 }
