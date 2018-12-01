@@ -80,7 +80,7 @@
     "tags": "json string text components"
   },
   "escaping": {
-    "message": "When you need a string to contain special characters that normally indicate special behavior for the parser, you need to escape those characters. For example, if you want to put `This is an \"example\" string` inside a string, you need to escape the quotes to tell the parser that those quotes are part of the string. You do that by preceding the character with a \\: `\"This is an \\\"example\\\" string\"`",
+    "message": "When you need a string to contain special characters that normally indicate special behavior for the parser, you need to escape those characters. For example, if you want to put `This is an \"example\" string` inside a string, you need to escape the quotes to tell the parser that those quotes are part of the string. You do that by preceding the character with a `\`: `\"This is an \\\"example\\\" string\"`",
     "tags": "json string text components escaping"
   }
 }
