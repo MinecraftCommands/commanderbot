@@ -88,7 +88,7 @@
     "tags": "marker aec area_effect_cloud duration"
   },
   "discord formatting": {
-	  "message": "When putting commands (and other code, like json) in Discord, it's wise to put them in code blocks. This makes the command easier to read and stops Discord from removing special characters (like\\`\\). Here are some examples of code blocks:\n\n**Inline code block**\n\\`example\\`\n`example`\n\n**Multi-line code block**\n\\`\\`\\`example\\`\\`\\`\n```example```\n\n**Multi-line code block with language syntax highlighting**\n\\`\\`\\`json\n{\n\t\"example\": true\n}\n\\`\\`\\`\n```json\n{\n\t\"example\": true\n}\n```",
-	  "tags": "discord formatting format code block blocks"
+    "message": "When putting commands (and other code, like json) in Discord, it's wise to put them in code blocks. This makes the command easier to read and stops Discord from removing special characters (like\\`\\). Here are some examples of code blocks:\n\n**Inline code block**\n\\`example\\`\n`example`\n\n**Multi-line code block**\n\\`\\`\\`example\\`\\`\\`\n```example```\n\n**Multi-line code block with language syntax highlighting**\n\\`\\`\\`json\n{\n\t\"example\": true\n}\n\\`\\`\\`\n```json\n{\n\t\"example\": true\n}\n```",
+    "tags": "discord formatting format code block blocks"
   }
 }
