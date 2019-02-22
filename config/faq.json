@@ -94,5 +94,12 @@
   "player nbt": {
     "message": "https://www.reddit.com/r/MinecraftCommands/comments/9ty42s/data_modify_is_irritating_me_today/e91rwc7/",
     "tags": "player nbt data"
+  },
+  "trigger order": {
+    "message": [
+      "<https://github.com/skylinerw/guides/blob/master/java/advancements.md#processing-order-of-triggers>",
+      "http://i.imgur.com/meB4V6V.png"
+    ],
+    "tags": "processing order triggers advancement tick timing"
   }
 }
