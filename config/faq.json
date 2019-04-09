@@ -1,4 +1,20 @@
 {
+  "what is tps": {
+    "message": "TPS: ticks per second",
+    "tags": "shorthand"
+  },
+  "what is mspt": {
+    "message": "MSPT: milliseconds per tick",
+    "tags": "shorthand"
+  },
+  "what is aec": {
+    "message": "AEC: area effect cloud",
+    "tags": "shorthand"
+  },
+  "what is coas": {
+    "message": "COAS: carrot on a stick",
+    "tags": "shorthand"
+  },
   "chunk format": {
     "message": "https://minecraft.gamepedia.com/Chunk_format",
     "tags": "chunk nbt format structure schema wiki"
