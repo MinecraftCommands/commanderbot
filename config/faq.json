@@ -1,20 +1,4 @@
 {
-  "tps": {
-    "message": "TPS: ticks per second",
-    "tags": "shorthand"
-  },
-  "mspt": {
-    "message": "MSPT: milliseconds per tick",
-    "tags": "shorthand"
-  },
-  "aec": {
-    "message": "AEC: area effect cloud",
-    "tags": "shorthand"
-  },
-  "coas": {
-    "message": "COAS: carrot on a stick",
-    "tags": "shorthand"
-  },
   "chunk format": {
     "message": "https://minecraft.gamepedia.com/Chunk_format",
     "tags": "chunk nbt format structure schema wiki"
@@ -52,16 +36,6 @@
     ],
     "tags": "resourcepack resourcepacks resource pack packs structure format layout"
   },
-  "butts": {
-    "message": "<https://twitter.com/Dinnerbone/status/1053367619074560002>",
-    "tags": "memes",
-    "hidden": true
-  },
-  "wolfsend": {
-    "message": "<https://feedback.minecraft.net/hc/en-us/community/posts/360018818112-Your-Wolf-Sending-A-Item-To-Another-Player-wolfsend-item-player->",
-    "tags": "memes",
-    "hidden": true
-  },
   "player slots": {
     "message": "https://gamepedia.cursecdn.com/minecraft_gamepedia/b/b2/Items_slot_number.png?version=3afad52a1728dd42b02d0bf4b5d5364e",
     "tags": "player slots inventory nbt"
@@ -92,7 +66,7 @@
     "tags": "discord formatting format code block blocks"
   },
   "player nbt": {
-    "message": "https://www.reddit.com/r/MinecraftCommands/comments/9ty42s/data_modify_is_irritating_me_today/e91rwc7/",
+    "message": "See: <https://www.reddit.com/r/MinecraftCommands/comments/9ty42s/data_modify_is_irritating_me_today/e91rwc7/>",
     "tags": "player nbt data"
   },
   "trigger order": {
