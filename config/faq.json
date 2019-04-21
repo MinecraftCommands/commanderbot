@@ -92,19 +92,26 @@
     ],
     "tags": "processing order triggers advancement tick timing"
   },
+  "butts": {
+    "message": "<:butts:541905359024160780>",
+    "tags": "blamesky",
+    "hidden": true
+  },
   "nbt spec": {
     "message": "<https://wiki.vg/NBT#Specification>",
     "tags": "nbt spec specification format"
   },
   "nbt types": {
     "message": [
-        "The numeric types in the game are as follows:",
-        "- `b`: byte, 8 bits, -2^7..2^7-1, -128..127",
-        "- `s`: short, 16 bits, -2^15..2^15-1, -32768..32767",
-        "- empty, int, 32 bits, -2^31..2^31-1, -2147483648..2147483647",
-        "- `L`: long, 64 bits, -2^63..2^63-1, -9223372036854775808..9223372036854775807",
-        "- `f`: 32 bits, single precision floating point",
-        "- `d`: 64 bits, double precision floating point"
+      "The numeric types in the game are as follows:",
+      "```",
+      "`b`: byte, 8 bits, -2^7..2^7-1, -128..127",
+      "`s`: short, 16 bits, -2^15..2^15-1, -32768..32767",
+      "default (empty): int, 32 bits, -2^31..2^31-1, -2147483648..2147483647",
+      "`L`: long, 64 bits, -2^63..2^63-1, -9223372036854775808..9223372036854775807",
+      "`f`: 32 bits, single precision floating point",
+      "`d`: 64 bits, double precision floating point",
+      "```"
     ],
     "tags": "nbt type types suffix suffixes"
   }
