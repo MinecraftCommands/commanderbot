@@ -107,12 +107,12 @@
       "```",
       "Suffix | Type   | Bits | Range",
       "------ | ------ | ---- | -----",
-      "`b`    | byte   | 8    | -128..127",
-      "`s`    | short  | 16   | -32768..32767",
-      "none   | int    | 32   | -2147483648..2147483647",
-      "`L`    | long   | 64   | -9223372036854775808..9223372036854775807",
-      "`f`    | float  | 32   | single-precision floating point",
-      "`d`    | double | 64   | double-precision floating point",
+      "b      | byte   | 8    | -128..127",
+      "s      | short  | 16   | -32768..32767",
+      "       | int    | 32   | -2147483648..2147483647",
+      "L      | long   | 64   | -9223372036854775808..9223372036854775807",
+      "f      | float  | 32   | single-precision floating point",
+      "d      | double | 64   | double-precision floating point",
       "```"
     ],
     "tags": "nbt type types suffix suffixes"
