@@ -120,5 +120,18 @@
   "nbt types": {
     "message": "https://cdn.discordapp.com/attachments/248183986814189568/569648352900284428/unknown.png",
     "tags": "nbt type types suffix suffixes"
+  },
+  "pack.mcmeta": {
+    "message": [
+      "```",
+      "{",
+      "  \"pack\": {",
+      "    \"pack_format\": 1,",
+      "    \"description\": \"A description of your\"",
+      "  }",
+      "}",
+      "```"
+    ],
+    "tags": "pack mcmeta datapack data"
   }
 }
