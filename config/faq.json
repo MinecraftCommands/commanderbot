@@ -127,7 +127,7 @@
       "{",
       "  \"pack\": {",
       "    \"pack_format\": 1,",
-      "    \"description\": \"A description of your\"",
+      "    \"description\": \"A description of your datapack\"",
       "  }",
       "}",
       "```"
