@@ -45,10 +45,24 @@
     ],
     "tags": "datapack datapacks data pack packs structure format layout"
   },
+  "data pack structure (light)": {
+    "message": [
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
+      "https://cdn.discordapp.com/attachments/295476675351805953/571527194841448478/unknown.png"
+    ],
+    "tags": "datapack datapacks data pack packs structure format layout"
+  },
   "resourcepack structure": {
     "message": [
       "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205",
       "https://i.imgur.com/2Ksb7vj.png"
+    ],
+    "tags": "resourcepack resourcepacks resource pack packs structure format layout"
+  },
+  "resource pack structure (light)": {
+    "message": [
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205",
+      "https://cdn.discordapp.com/attachments/295476675351805953/571529824137379841/unknown.png"
     ],
     "tags": "resourcepack resourcepacks resource pack packs structure format layout"
   },
