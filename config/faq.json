@@ -140,7 +140,7 @@
       "```",
       "{",
       "  \"pack\": {",
-      "    \"pack_format\": 1,",
+      "    \"pack_format\": <number>,",
       "    \"description\": \"A description of your datapack\"",
       "  }",
       "}",
