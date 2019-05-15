@@ -52,7 +52,7 @@
     ],
     "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout (light) light"
   },
-    "datapack structure": {
+  "datapack structure": {
     "message": [
       "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
       "https://i.imgur.com/8iKnwnr.png"
@@ -80,7 +80,7 @@
     ],
     "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout (light) light"
   },
-    "resourcepack structure": {
+  "resourcepack structure": {
     "message": [
       "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205",
       "https://i.imgur.com/2Ksb7vj.png"
@@ -132,7 +132,7 @@
       "<https://github.com/skylinerw/guides/blob/master/java/advancements.md#processing-order-of-triggers>",
       "http://i.imgur.com/meB4V6V.png"
     ],
-    "tags": "processing order triggers advancement tick timing"
+    "tags": "processing trigger order triggers advancement tick timing chart diagram pipeline"
   },
   "butts": {
     "message": "<:butts:541905359024160780>",
