@@ -187,5 +187,7 @@
       "```"
     ],
     "tags": "pack mcmeta datapack data"
-  }
+  },
+  "dps": "data pack structure",
+  "rps": "resource pack structure"
 }
