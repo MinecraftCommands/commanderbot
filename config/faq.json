@@ -63,7 +63,8 @@
       "                        :page_facing_up: `load.json`",
       "                        :page_facing_up: `tick.json`"
     ],
-    "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout"
+    "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout",
+    "aliases": ["dps"]
   },
   "resource pack structure": {
     "message": [
@@ -104,7 +105,8 @@
       "                    :open_file_folder: `painting`",
       "                    :open_file_folder: `particle`"
     ],
-    "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout"
+    "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout",
+    "aliases": ["rps"]
   },
   "player slots": {
     "message": "https://gamepedia.cursecdn.com/minecraft_gamepedia/b/b2/Items_slot_number.png?version=3afad52a1728dd42b02d0bf4b5d5364e",
@@ -187,7 +189,5 @@
       "```"
     ],
     "tags": "pack mcmeta datapack data"
-  },
-  "dps": "data pack structure",
-  "rps": "resource pack structure"
+  }
 }
