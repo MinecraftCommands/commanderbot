@@ -43,28 +43,56 @@
       "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
       "https://i.imgur.com/8iKnwnr.png"
     ],
-    "tags": "datapack datapacks data pack packs structure format layout"
+    "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout"
   },
   "data pack structure (light)": {
     "message": [
       "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
       "https://cdn.discordapp.com/attachments/295476675351805953/571527194841448478/unknown.png"
     ],
-    "tags": "datapack datapacks data pack packs structure format layout"
+    "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout (light) light"
+  },
+    "datapack structure": {
+    "message": [
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
+      "https://i.imgur.com/8iKnwnr.png"
+    ],
+    "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout"
+  },
+  "datapack structure (light)": {
+    "message": [
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
+      "https://cdn.discordapp.com/attachments/295476675351805953/571527194841448478/unknown.png"
+    ],
+    "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout (light) light"
   },
   "resource pack structure": {
     "message": [
       "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205",
       "https://i.imgur.com/2Ksb7vj.png"
     ],
-    "tags": "resourcepack resourcepacks resource pack packs structure format layout"
+    "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout"
   },
   "resource pack structure (light)": {
     "message": [
       "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205",
       "https://cdn.discordapp.com/attachments/295476675351805953/571529824137379841/unknown.png"
     ],
-    "tags": "resourcepack resourcepacks resource pack packs structure format layout"
+    "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout (light) light"
+  },
+    "resourcepack structure": {
+    "message": [
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205",
+      "https://i.imgur.com/2Ksb7vj.png"
+    ],
+    "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout"
+  },
+  "resourcepack structure (light)": {
+    "message": [
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205",
+      "https://cdn.discordapp.com/attachments/295476675351805953/571529824137379841/unknown.png"
+    ],
+    "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout (light) light"
   },
   "player slots": {
     "message": "https://gamepedia.cursecdn.com/minecraft_gamepedia/b/b2/Items_slot_number.png?version=3afad52a1728dd42b02d0bf4b5d5364e",
