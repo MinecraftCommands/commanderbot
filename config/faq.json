@@ -40,6 +40,7 @@
   },
   "data pack structure": {
     "message": [
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
       ":open_file_folder: `datapacks`",
       "    :open_file_folder: `<data_pack>`",
       "        :scroll: `pack.mcmeta`",
@@ -60,13 +61,13 @@
       "                :open_file_folder: `tags`",
       "                    :open_file_folder: `functions`",
       "                        :page_facing_up: `load.json`",
-      "                        :page_facing_up: `tick.json`",
-      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906"
+      "                        :page_facing_up: `tick.json`"
     ],
     "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout"
   },
   "resource pack structure": {
     "message": [
+      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205",
       ":open_file_folder: `resourcepacks`",
       "    :open_file_folder: `<resource_pack>`",
       "        :scroll: `pack.mcmeta`",
@@ -101,8 +102,7 @@
       "                    :open_file_folder: `misc`",
       "                    :open_file_folder: `models`",
       "                    :open_file_folder: `painting`",
-      "                    :open_file_folder: `particle`",
-      "https://discordapp.com/channels/154777837382008833/157097006500806656/510121295287943205"
+      "                    :open_file_folder: `particle`"
     ],
     "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout"
   },
