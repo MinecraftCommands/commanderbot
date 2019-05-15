@@ -64,7 +64,7 @@
       "                        :page_facing_up: `tick.json`"
     ],
     "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout",
-    "aliases": ["dps"]
+    "aliases": ["datapack structure", "data-pack structure", "dps"]
   },
   "resource pack structure": {
     "message": [
@@ -106,7 +106,7 @@
       "                    :open_file_folder: `particle`"
     ],
     "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout",
-    "aliases": ["rps"]
+    "aliases": ["resourcepack structure", "resource-pack structure", "rps"]
   },
   "player slots": {
     "message": "https://gamepedia.cursecdn.com/minecraft_gamepedia/b/b2/Items_slot_number.png?version=3afad52a1728dd42b02d0bf4b5d5364e",
