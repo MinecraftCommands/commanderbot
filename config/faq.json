@@ -179,15 +179,30 @@
   },
   "pack.mcmeta": {
     "message": [
-      "```",
+      "```json",
       "{",
       "  \"pack\": {",
       "    \"pack_format\": <number>,",
-      "    \"description\": \"A description of your datapack\"",
+      "    \"description\": \"A description for your datapack or resourcepack\"",
       "  }",
       "}",
       "```"
     ],
     "tags": "pack mcmeta datapack data"
+  },
+  "tag.json": {
+    "message": [
+      "```json",
+      "{",
+      "  \"replace\": false,",
+      "  \"values\": [",
+      "    \"namespace:some_entry\"",
+      "    \"namespace:another_entry\"",
+      "    \"#namespace:some_tag\"",
+      "  ]",
+      "}",
+      "```"
+    ],
+    "tags": "tag json datapack tags groups group tick.json load.json"
   }
 }
