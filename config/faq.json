@@ -198,7 +198,7 @@
       "  \"values\": [",
       "    \"namespace:some_entry\"",
       "    \"namespace:another_entry\"",
-      "    \"#namespace:some_tag\"",
+      "    \"#namespace:some_tag\""
       "  ]",
       "}",
       "```"
