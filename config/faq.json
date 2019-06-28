@@ -180,13 +180,13 @@
       "```json",
       "{",
       "  \"pack\": {",
-      "    \"pack_format\": <number>,",
+      "    \"pack_format\": 4,",
       "    \"description\": \"A description for your datapack or resourcepack\"",
       "  }",
       "}",
       "```"
     ],
-    "tags": "pack mcmeta datapack data"
+    "tags": "pack mcmeta datapack data resourcepack resource"
   },
   "tag.json": {
     "message": [
