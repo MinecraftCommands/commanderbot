@@ -219,6 +219,8 @@
       "# To expand all possibilities of a command, use the `-e` option:",
       ">mcc -e execute store result",
       "# Commands with many results will still be trimmed to avoid bot rate limiting.",
+      "# Use `-t` to show argument types:",
+      ">mcc -t execute store result entity",
       "# Each subcommand/argument is a regex token:",
       ">mcc execute a.*",
       "# Arguments are searched by name (without braces):",
