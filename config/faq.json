@@ -207,5 +207,27 @@
     "message": "<https://discordapp.com/channels/154777837382008833/157097006500806656/512353496897421312>",
     "tags": "datapack data pack template",
     "aliases": ["datapack template", "data-pack template", "dpt"]
+  },
+  "mccq": {
+    "message": [
+      "<https://github.com/Arcensoth/mccq#basic-usage>",
+      "```bash",
+      "# To print a command:",
+      ">mcc execute store",
+      "# Commands with many sub-commands will be shortened. To dive further into the command:",
+      ">mcc execute store result",
+      "# To expand all possibilities of a command, use the `-e` option:",
+      ">mcc -e execute store result",
+      "# Commands with many results will still be trimmed to avoid bot rate limiting.",
+      "# Each subcommand/argument is a regex token:",
+      ">mcc execute a.*",
+      "# Arguments are searched by name (without braces):",
+      ">mcc execute as targets",
+      "# You can use `.` as a wildcard to quickly dive into a command:",
+      ">mcc execute store . . target",
+      "```"
+    ],
+    "tags": "mcc mccq command commands query help",
+    "aliases": ["mcc"]
   }
 }
