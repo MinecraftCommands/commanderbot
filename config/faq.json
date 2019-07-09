@@ -231,5 +231,13 @@
     ],
     "tags": "mcc mccq command commands query help",
     "aliases": ["mcc"]
+  },
+  "fabric setup": {
+    "message": [
+      "Follow the guide to setup a mod development environment for Fabric: <https://fabricmc.net/wiki/tutorial:setup>",
+      "If you're using VSCode, step (3) is a bit more involved: <https://fabricmc.net/wiki/tutorial:vscode_setup>"
+    ],
+    "tags": "game code gamecode minecraft source yarn mappings decompile decompiled deobfuscate deobfuscated",
+    "aliases": ["code"]
   }
 }
