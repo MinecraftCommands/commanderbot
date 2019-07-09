@@ -128,7 +128,10 @@
     "tags": "json string text components escaping"
   },
   "marker aec": {
-    "message": "The following area_effect_cloud won't have particles and will last ~6.8 years: ```/summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648}```",
+    "message": [
+      "The following area_effect_cloud won't have particles and will last ~6.8 years: ```/summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648}```",
+      "<https://discordapp.com/channels/154777837382008833/338040270832795669/490167485610590245>"
+    ],
     "tags": "marker aec area_effect_cloud duration"
   },
   "discord formatting": {
