@@ -120,7 +120,7 @@
     "tags": "range commands selectors"
   },
   "json string": {
-    "message": "As of 1.13, CustomName for entities and item display names (and lore in 1.14) started using JSON text components. They still need to be stored in a string, because NBT cannot store direct JSON. An example looks like this: `\"{\\\"color\\\":\\\"blue\\\",\\\"text\\\":\\\"example\\\"}\"`. If you don't care about colors and formatting and just want plain text, you can use this shortcut: `\"\\\"example\\\"\"`",
+    "message": "As of 1.13, CustomName for entities and item display names (and lore in 1.14) started using JSON text components. They still need to be stored in a string, because NBT cannot store direct JSON. An example looks like this: `\"{\\\"color\\\":\\\"blue\\\",\\\"text\\\":\\\"example\\\"}\"`. If you don't care about colors and formatting and just want plain text, you can use this shortcut: `\"\\\"example\\\"\"`. As of 1.14, you can use single quotes `'` around strings to avoid needing to escape double quotes: `'\"example\"'` and `'{\"color\":\"blue\",\"text\":\"example\"}'`",
     "tags": "json string text components"
   },
   "escaping": {
