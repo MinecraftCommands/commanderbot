@@ -242,5 +242,9 @@
     ],
     "tags": "game code gamecode minecraft source yarn mappings decompile decompiled deobfuscate deobfuscated",
     "aliases": ["code"]
+  },
+  "bug report": {
+    "message": "<https://www.minecraft.net/en-us/article/bug-us-about-bugs>",
+    "tags": "issue tracker jira mojira"
   }
 }
