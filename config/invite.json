@@ -34,5 +34,17 @@
   {
     "invite": "http://discord.gg/46JUdQb",
     "tags": "bedrock scripting"
+  },
+  {
+    "invite": "https://discord.gg/minecraft",
+    "tags": "minecraft official mcpe"
+  },
+  {
+    "invite": "https://discord.gg/moddedmc",
+    "tags": "moddedmc mods modded forge ftb feedthebeast"
+  },
+  {
+    "invite": "https://discord.gg/CM52CAH",
+    "tags": "tmc technical minecraft redstone survival"
   }
 ]
