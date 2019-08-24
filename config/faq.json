@@ -4,8 +4,8 @@
       "- `✅` means the channel is available for a new discussion. Ask your questions here!",
       "- `💬` means the channel is occupied. Feel free to join in if you have something to contribute.",
       "- `⏰` means the channel is inactive but may have lingering discussion or an unanswered question.",
-      "- :resolved: can be used once discussion has ended to free-up the channel.",
-      "- :relocate: can be used to direct someone to the next available channel."
+      "- <:resolved:614073731433627658> can be used once discussion has ended to free-up the channel.",
+      "- <:relocate:614073716103708672> can be used to direct someone to the next available channel."
     ],
     "tags": "help chat helpchat"
   },
