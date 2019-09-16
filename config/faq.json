@@ -256,5 +256,9 @@
   "bug report": {
     "message": "<https://www.minecraft.net/en-us/article/bug-us-about-bugs>",
     "tags": "issue tracker jira mojira"
+  },
+  "ask": {
+    "message": "https://media.discordapp.net/attachments/306175724942000128/623253482958487552/93qXFd0.png?width=841&height=702",
+    "tags": "asking question questions"
   }
 }
