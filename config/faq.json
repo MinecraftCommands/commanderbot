@@ -181,12 +181,16 @@
       "L      | long   | 64   | -9223372036854775808..9223372036854775807",
       "f      | float  | 32   | single-precision floating point",
       "d      | double | 64   | double-precision floating point",
-      "```"
+      "```",
+      "(For an nbt types message in image format, use ``>faq nbt types``)"
     ],
     "tags": "nbt type types suffix suffixes"
   },
   "nbt types": {
-    "message": "https://cdn.discordapp.com/attachments/248183986814189568/569648352900284428/unknown.png",
+    "message": [
+       "(For an nbt types message in text format, use ``>faq nbt types table``)",
+       "https://cdn.discordapp.com/attachments/248183986814189568/569648352900284428/unknown.png"
+    ],
     "tags": "nbt type types suffix suffixes"
   },
   "pack.mcmeta": {
@@ -264,5 +268,35 @@
       "Source: <https://sol.gfxile.net/dontask.html>"
     ],
     "tags": "asking question questions"
+  },
+  "disabled slots table": {
+    "message": [
+      "To summon an armorstand with every slot completely disabled use ``/summon minecraft:armor_stand ~ ~ ~ {DisabledSlots:4144959}``",
+      "Certain disabled slots combinations do not work as intended: https://bugs.mojang.com/browse/MC-94252",
+      "```ml",
+      "DISABLED SLOTS:",
+      "=====================================================================================",
+      "|         |  Hand  |  Boots  | Leggings | Chestplate |  Helmet  | Offhand |  Total  |",
+      "-------------------------------------------------------------------------------------",
+      "|All:     |    1   |    2    |     4    |      8     |    16    |    32   |    63   |",
+      "-------------------------------------------------------------------------------------",
+      "|Replace: |   256  |   512   |   1024   |    2048    |   4096   |   8192  |  16128  |",
+      "-------------------------------------------------------------------------------------",
+      "|Place:   |  65536 |  131072 |  262144  |   524288   |  1048576 | 2097152 | 4128768 |",
+      "-------------------------------------------------------------------------------------",
+      "|Total:   |  65793 |  131586 |  263172  |   526344   |  1052688 | 2105376 | 4144959 |",
+      "=====================================================================================",
+      "```",
+      "(For a disabled slots message in image format, use ``>faq disabled slots``)"
+    ],
+    "tags": "disabledslots, slots, disabled, armor_stand, armor stand, armorstand"
+  },
+  "disabled slots": {
+    "message": [
+      "(For a disabled slots message in text format, use ``>faq disabled slots table``)",
+      "https://cdn.discordapp.com/attachments/321749383286620170/642803276210765824/unknown.png"
+    ],
+    "tags": "disabledslots, slots, disabled, armor_stand, armor stand, armorstand"
   }
+  
 }
