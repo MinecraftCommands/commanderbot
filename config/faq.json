@@ -296,7 +296,8 @@
       "(For a disabled slots message in text format, use ``>faq disabled slots table``)",
       "https://cdn.discordapp.com/attachments/321749383286620170/642803276210765824/unknown.png"
     ],
-    "tags": "disabledslots, slots, disabled, armor_stand, armor stand, armorstand"
+    "tags": "disabledslots slots disabled armor_stand armor stand armorstand",
+    "aliases": ["dst"]
   }
   
 }
