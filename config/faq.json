@@ -298,6 +298,10 @@
     ],
     "tags": "disabledslots slots disabled armor_stand armor stand armorstand",
     "aliases": ["dst"]
+  },
+  "nbt path": {
+    "message": "https://cdn.discordapp.com/attachments/157097006500806656/653078666586226699/unknown-1.png",
+    "tags": "nbt"
   }
   
 }
