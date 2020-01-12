@@ -305,6 +305,6 @@
   },
   "server data": {
     "message": "```java -cp server.jar net.minecraft.data.Main --all```",
-    "tags": "server, data dump, registries"
+    "tags": "server data registries"
   }
 }
