@@ -299,11 +299,27 @@
     "tags": "disabledslots slots disabled armor_stand armor stand armorstand",
     "aliases": ["dst"]
   },
-  "nbt path": {
+  "nbt path image": {
     "message": [
       "<https://minecraft.gamepedia.com/Commands/data#Examples>",
       "https://cdn.discordapp.com/attachments/157097006500806656/653078666586226699/unknown-1.png"
     ],
+    "tags": "nbt"
+  },
+  "nbt path": {
+    "message": [
+      "`foo` → Specifies the root element's child named `foo`",
+      "`foo.bar` → Specifies `foo`s child named `bar`",
+      "`list[0]` → Specifies the first element of the child `list`. `list` must be a list or one of the array types",
+      "`list[0].child` → Specifies the child `child` of the previous element",
+      "`list[-1]` → Specifies the last element of `list`",
+      "`foo.\"bar with [[weird]] characters\"` → Specifies the child named `\"bar with [[weird]] characters\"`",
+      "`list[]` → Gets every element of `list`",
+      "`list[{flag:1b}]` → Gets each element of `list` with a child named `flag` that has a value of `1b`",
+      "`{}` → Specifies the root element of the NBT",
+      "`{name:\"mcc\",cool:1b}` → Specifies the root element if it matches `{name:\"mcc\",cool:1b}`",
+      "`user{name:\"sky\"}` → Specifies the user element if `user.name` is `\"sky\"`"
+     ],
     "tags": "nbt"
   },
   "server data": {
