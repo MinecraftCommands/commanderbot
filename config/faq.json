@@ -226,6 +226,11 @@
     "tags": "datapack data pack template",
     "aliases": ["datapack template", "data-pack template", "dpt"]
   },
+  "resource pack template": {
+    "message": "<https://discordapp.com/channels/154777837382008833/157097006500806656/681229223821705235>",
+    "tags": "resourcepack resource pack template",
+    "aliases": ["resourcepack template", "resource-pack template", "rpt"]
+  },
   "mccq": {
     "message": [
       "<https://github.com/Arcensoth/mccq#basic-usage>",
