@@ -45,13 +45,13 @@
     "cogbot.extensions.helpchat": {
       "servers": {
         "mcc": {
-          "message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an unoccupied help-chat: {to_channel.mention}",
-          "message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an unoccupied help-chat.",
+          "message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and direct all your questions towards Bahlph#0486",
+          "message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in a channel under the 👋 ASK-HERE category.",
           "seconds_until_stale": 1200,
           "resolve_with_reaction": true,
           "relocate_emoji": "<:relocate:614073716103708672>",
           "resolve_emoji": "<:resolved:614073731433627658>",
-          "min_hoisted_channels": 2,
+          "min_hoisted_channels": 3,
           "max_hoisted_channels": 3,
           "free_format": "{emoji}resolved-chat-{key}",
           "free_category": "685961646476230703",
