@@ -1,12 +1,6 @@
 {
   "help-chat": {
-    "message": [
-      "- `✅` means the channel is available for a new discussion. Ask your question here!",
-      "- `💬` means the channel has recent or ongoing discussion and is likely still being used.",
-      "- `⏰` means the channel has been inactive for a while, but may still have an unanswered question.",
-      "- <:resolved:614073731433627658> can be used once discussion has ended to free-up the channel. Give people a few minutes to post a response before using this.",
-      "- <:relocate:614073716103708672> can be used to direct someone to the next available channel. Prefer to use this for newer members to help them learn the ropes."
-    ],
+    "message": "https://discordapp.com/channels/154777837382008833/321747035403452417/685974609492705299",
     "tags": "help chat helpchat helpchats chats"
   },
   "what is tps": {
