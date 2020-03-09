@@ -45,7 +45,7 @@
     "cogbot.extensions.helpchat": {
       "servers": {
         "mcc": {
-          "message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an 👋 ask-here channel.",
+          "message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an available help-chat: {to_channel.mention}",
           "message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and prepare for the server to be deleted.",
           "hoisted_message": [
             "👋 Have questions or need help with a command or map-making related project? Ask here and be patient for a response. Remember to read <#613193475780771872> and:",
