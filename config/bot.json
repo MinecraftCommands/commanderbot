@@ -47,6 +47,7 @@
         "mcc": {
           "message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an 👋 ask-here channel.",
           "message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and direct all your questions towards Bahlph#0486.",
+          "hoisted_message": "👋 Have questions or need help with a command or map-making related project? Ask here and be patient for a response.",
           "seconds_until_stale": 1200,
           "resolve_with_reaction": true,
           "relocate_emoji": "<:relocate:614073716103708672>",
