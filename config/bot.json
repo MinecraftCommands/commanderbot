@@ -45,20 +45,37 @@
     "cogbot.extensions.helpchat": {
       "servers": {
         "mcc": {
-          "message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an unoccupied help-chat: {to_channel.mention}",
-          "message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an unoccupied help-chat.",
+          "message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an available channel: {to_channel.mention}",
+          "message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and prepare for the server to be deleted.",
+          "hoisted_message": [
+            "👋 Have questions or need help with a command or map-making related project? Ask here and be patient for a response. Remember to read <#247071734384164865> and:",
+            "• Ask straight away, rather than asking 'can anyone help'",
+            "• State Minecraft version and any mods (Optifine, Spigot, etc.)",
+            "• Tell us what you're trying to do, and what is happening instead"
+          ],
           "seconds_until_stale": 1200,
           "resolve_with_reaction": true,
           "relocate_emoji": "<:relocate:614073716103708672>",
           "resolve_emoji": "<:resolved:614073731433627658>",
-          "channels": [
-            "154778900835205120",
-            "155701556833026048",
-            "187655051219697664",
-            "338040270832795669",
-            "542149104222863371",
-            "602224240984588290"
-          ]
+          "min_hoisted_channels": 3,
+          "max_hoisted_channels": 3,
+          "free_format": "{emoji}resolved-chat-{key}",
+          "free_category": "685961646476230703",
+          "busy_category": "360569652654374913",
+          "stale_category": "360569652654374913",
+          "hoisted_category": "685961545649356810",
+          "channels": {
+            "1": "154778900835205120",
+            "2": "155701556833026048",
+            "3": "187655051219697664",
+            "4": "338040270832795669",
+            "5": "542149104222863371",
+            "6": "602224240984588290",
+            "7": "685962361726959851",
+            "8": "685962443255709699",
+            "9": "685962521076563968",
+            "10": "685962574205943839"
+          }
         }
       }
     },
@@ -71,7 +88,11 @@
             "187655051219697664",
             "338040270832795669",
             "542149104222863371",
-            "602224240984588290"
+            "602224240984588290",
+            "685962361726959851",
+            "685962443255709699",
+            "685962521076563968",
+            "685962574205943839"
           ],
           "other_channels": [
             "154777837382008833",
