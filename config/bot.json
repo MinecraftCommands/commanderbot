@@ -53,7 +53,7 @@
             "• State Minecraft version and any mods (Optifine, Spigot, etc.)",
             "• Tell us what you're trying to do, and what is happening instead"
           ],
-          "seconds_until_stale": 1200,
+          "seconds_until_idle": 1200,
           "resolve_with_reaction": true,
           "relocate_emoji": "<:relocate:614073716103708672>",
           "resolve_emoji": "<:resolved:614073731433627658>",
@@ -62,7 +62,7 @@
           "free_format": "{emoji}resolved-chat-{key}",
           "free_category": "685961646476230703",
           "busy_category": "360569652654374913",
-          "stale_category": "360569652654374913",
+          "idle_category": "360569652654374913",
           "hoisted_category": "685961545649356810",
           "channels": [
             { "key": "1", "id": "154778900835205120" },
