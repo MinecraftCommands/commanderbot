@@ -325,11 +325,18 @@
     "message": "```java -cp server.jar net.minecraft.data.Main --all```",
     "tags": "server data registries"
   },
-  "formatting codes": {
+  "color codes": {
     "message": [
       "<https://minecraft.gamepedia.com/Formatting_codes>",
       "https://gamepedia.cursecdn.com/minecraft_gamepedia/4/4c/Colors.png"
     ],
-    "tags": "formatting format color colors colour colours code codes"
+    "tags": "color colors colour colours code codes"
+  },
+  "formatting codes": {
+    "message": [
+      "<https://minecraft.gamepedia.com/Formatting_codes>",
+      "https://gamepedia.cursecdn.com/minecraft_gamepedia/7/7e/Minecraft_Formatting.gif"
+    ],
+    "tags": "formatting format code codes"
   }
 }
