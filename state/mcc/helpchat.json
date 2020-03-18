@@ -1,0 +1,38 @@
+{
+  "message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an available channel: {to_channel.mention}",
+  "message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and prepare for the server to be deleted.",
+  "hoisted_message": [
+    "👋 Have questions or need help with a command or map-making related project? Ask here and be patient for a response. Remember to read <#247071734384164865> and:",
+    "• Ask straight away, rather than asking 'can anyone help'",
+    "• State Minecraft version and any mods (Optifine, Spigot, etc.)",
+    "• Tell us what you're trying to do, and what is happening instead"
+  ],
+  "seconds_until_idle": 3600,
+  "resolve_with_reaction": true,
+  "relocate_emoji": "<:relocate:614073716103708672>",
+  "resolve_emoji": "<:resolved:614073731433627658>",
+  "min_hoisted_channels": 3,
+  "max_hoisted_channels": 3,
+  "free_format": "{emoji}resolved-chat-{key}",
+  "free_category": "685961646476230703",
+  "busy_category": "360569652654374913",
+  "idle_category": "360569652654374913",
+  "hoisted_category": "685961545649356810",
+  "channels": [
+    { "key": "1", "id": "154778900835205120" },
+    { "key": "2", "id": "155701556833026048" },
+    { "key": "3", "id": "187655051219697664" },
+    { "key": "4", "id": "338040270832795669" },
+    { "key": "5", "id": "542149104222863371" },
+    { "key": "6", "id": "602224240984588290" },
+    { "key": "7", "id": "685962361726959851" },
+    { "key": "8", "id": "685962443255709699" },
+    { "key": "9", "id": "685962521076563968" },
+    { "key": "10", "id": "685962574205943839" },
+    { "key": "11", "id": "689290283397152824" },
+    { "key": "12", "id": "689290407028195486" },
+    { "key": "13", "id": "689290423407083535" },
+    { "key": "14", "id": "689290445473185855" },
+    { "key": "15", "id": "689290462468898842" }
+  ]
+}
