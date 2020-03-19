@@ -6,7 +6,7 @@
     "• Ask straight away, rather than asking 'can anyone help'",
     "• State Minecraft version and any mods (Optifine, Spigot, etc.)",
     "• Tell us what you're trying to do, and what is happening instead",
-    "• Remember to free-up the channel with :resolved: when you're done"
+    "• Remember to free-up the channel with :resolved: when done"
   ],
   "seconds_until_idle": 3600,
   "resolve_with_reaction": true,
