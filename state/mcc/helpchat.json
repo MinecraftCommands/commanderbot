@@ -1,6 +1,7 @@
 {
   "message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an available channel: {to_channel.mention}",
   "message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and prepare for the server to be deleted.",
+  "reminder_message": "{user.mention} Next time, don't forget to use {resolve_emoji_raw} {resolve_emoji} to free-up the channel for others.",
   "hoisted_message": [
     "👋 Have questions or need help with a command or map-making related project? Ask here and be patient for a response. Remember to read <#247071734384164865> and:",
     "• Ask straight away, rather than asking 'can anyone help'",
@@ -8,6 +9,7 @@
     "• Tell us what you're trying to do, and what is happening instead",
     "• Remember to free-up the channel with :resolved: when done"
   ],
+  "log_channel": "614509905889460235",
   "seconds_until_idle": 3600,
   "resolve_with_reaction": true,
   "relocate_emoji": "<:relocate:614073716103708672>",
@@ -19,6 +21,7 @@
   "busy_category": "360569652654374913",
   "idle_category": "360569652654374913",
   "hoisted_category": "685961545649356810",
+  "log_busied_from_free_emoji": "🙊",
   "channels": [
     { "key": "1", "id": "154778900835205120" },
     { "key": "2", "id": "155701556833026048" },
