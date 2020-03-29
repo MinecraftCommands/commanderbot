@@ -17,7 +17,7 @@
   "resolve_emoji": "<:resolved:614073731433627658>",
   "min_hoisted_channels": 3,
   "max_hoisted_channels": 3,
-  "free_format": "{emoji}resolved-chat-{key}",
+  "free_format": "resolved-chat-{key}",
   "free_category": "685961646476230703",
   "busy_category": "360569652654374913",
   "idle_category": "360569652654374913",
