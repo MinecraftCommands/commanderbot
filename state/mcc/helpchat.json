@@ -5,10 +5,10 @@
   "fake_out_message": "{user.mention} Do not use a channel and then delete your message. Next time, use {resolve_emoji_raw} {resolve_emoji} to resolve the channel first.",
   "prompt_message": [
     "👋 Have questions or need help with a command or map-making related project? Ask here and be patient for a response. Remember to read <#247071734384164865> and:",
-    "• The channel will be moved to a 💬busy-chat when you type",
     "• Ask straight away, rather than asking 'can anyone help'",
     "• State Minecraft version and any mods (Optifine, Spigot, etc.)",
     "• Tell us what you're trying to do, and what is happening instead",
+    "• The channel will be moved to a 💬busy-chat when you type",
     "• Remember to free-up the channel with :resolved: when done"
   ],
   "log_channel": "614509905889460235",
