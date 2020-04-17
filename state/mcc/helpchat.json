@@ -3,6 +3,7 @@
   "relocate_message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and prepare for the server to be deleted.",
   "reminder_message": "{user.mention} Has your question been answered? Don't forget to use {resolve_emoji_raw} {resolve_emoji} to free-up the channel for others.",
   "fake_out_message": "{user.mention} Do not use a channel and then delete your message. Next time, use {resolve_emoji_raw} {resolve_emoji} to resolve the channel first.",
+  "channel_description": "Have questions or need help with a command or map-making related project?",
   "prompt_message": [
     "👋 Have questions or need help with a command or map-making related project? Ask here and be patient for a response. Remember to read <#247071734384164865> and:",
     "• Ask straight away, rather than asking 'can anyone help'",
