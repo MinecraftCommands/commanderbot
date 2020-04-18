@@ -17,7 +17,7 @@
   "resolve_with_reaction": true,
   "relocate_emoji": "<:relocate:614073716103708672>",
   "resolve_emoji": "<:resolved:614073731433627658>",
-  "min_hoisted_channels": 3,
+  "min_hoisted_channels": 1,
   "max_hoisted_channels": 3,
   "hoisted_format": "ask-here-{key}",
   "busy_format": "busy-chat-{key}",
