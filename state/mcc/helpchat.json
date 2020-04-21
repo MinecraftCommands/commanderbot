@@ -19,7 +19,7 @@
   "resolve_emoji": "<:resolved:614073731433627658>",
   "min_hoisted_channels": 1,
   "max_hoisted_channels": 3,
-  "hoisted_format": "need-help-❔-{key}",
+  "hoisted_format": "need-help❔-{key}",
   "busy_format": "busy-chat-{key}",
   "idle_format": "busy-chat-{key}",
   "free_format": "resolved-chat-{key}",
