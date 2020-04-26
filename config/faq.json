@@ -342,5 +342,9 @@
       "https://gamepedia.cursecdn.com/minecraft_gamepedia/7/7e/Minecraft_Formatting.gif"
     ],
     "tags": "formatting format code codes"
+  },
+  "position selecting": {
+    "message": "https://discordapp.com/channels/154777837382008833/157097006500806656/704002275332456468",
+    "tags": "position selector selectors selection distance dx dy dz"
   }
 }
