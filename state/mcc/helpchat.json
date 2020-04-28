@@ -1,9 +1,13 @@
 {
+  "log_channel": "614509905889460235",
   "relocate_message_with_channel": "Hi {author.mention}, please read <#247071734384164865> and ask questions in an available channel: {to_channel.mention}",
   "relocate_message_without_channel": "Hi {author.mention}, please read <#247071734384164865> and prepare for the server to be deleted.",
-  "reminder_message": "{user.mention} Has your question been answered? Don't forget to use {resolve_emoji_raw} {resolve_emoji} to free-up the channel for others.",
-  "fake_out_message": "{user.mention} Do not use a channel and then delete your message. Next time, use {resolve_emoji_raw} {resolve_emoji} to resolve the channel first.",
-  "channel_description": "Have questions or need help with a command or map-making related project?",
+  "reminder_message": [
+    "{user.mention} Has your question been answered? When you're finished, don't forget to use {resolve_emoji_raw} {resolve_emoji} to free-up the channel for others.",
+    "",
+    "Otherwise, let us know what you've tried and what's changed since last time."
+  ],
+  "fake_out_message": "{user.mention} Try to avoid deleting your question, by either editing the message or using {resolve_emoji_raw} {resolve_emoji} to free-up the channel first.",
   "prompt_message": [
     "👋 Have questions or need help with a command or map-making related project? Ask here and be patient for a response. Remember to read <#247071734384164865> and:",
     "• Ask straight away, rather than asking 'can anyone help'",
@@ -12,22 +16,37 @@
     "• The channel will be moved to a 💬busy-chat when you type",
     "• Remember to free-up the channel with :resolved: when done"
   ],
-  "log_channel": "614509905889460235",
   "seconds_until_idle": 3600,
-  "resolve_with_reaction": true,
+  "seconds_to_poll": 60,
   "relocate_emoji": "<:relocate:614073716103708672>",
   "resolve_emoji": "<:resolved:614073731433627658>",
   "min_hoisted_channels": 1,
   "max_hoisted_channels": 3,
-  "hoisted_format": "ask-here-{key}",
-  "busy_format": "busy-chat-{key}",
-  "idle_format": "busy-chat-{key}",
-  "free_format": "resolved-chat-{key}",
-  "free_category": "685961646476230703",
+
+  "hoisted_category": "685961545649356810",
   "busy_category": "360569652654374913",
   "idle_category": "360569652654374913",
-  "hoisted_category": "685961545649356810",
-  "log_busied_from_free_emoji": "🙊",
+  "pending_category": "360569652654374913",
+  "answered_category": "685961646476230703",
+
+  "hoisted_name": "ask-here",
+  "busy_name": "{asker}’s-question",
+  "idle_name": "{asker}’s-question",
+  "pending_name": "{asker}’s-question",
+  "answered_name": "{asker}’s-answered-question",
+  "ducked_name": "{asker}’s-duck-session",
+
+  "hoisted_description": [
+    "**Ask here** \\👋",
+    "",
+    "Have questions or need help with a command, datapack, or map-making related project? Ask here!"
+  ],
+
+  "persist_asker": true,
+  "helper_role": "154919580563800064",
+  "ignored_role": "704455290912899143",
+  "renamed_role": "702182065394679849",
+
   "channels": [
     { "key": "1", "id": "154778900835205120" },
     { "key": "2", "id": "155701556833026048" },
