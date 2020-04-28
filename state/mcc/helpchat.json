@@ -5,7 +5,7 @@
   "reminder_message": [
     "{user.mention} Has your question been answered? When you're finished, don't forget to use {resolve_emoji_raw} {resolve_emoji} to free-up the channel for others.",
     "",
-    "Otherwise, let us know what you've tried and what's changed since last time."
+    "Otherwise, let us know what you've tried and what's changed since last time. If nothing has changed, try to provide more details."
   ],
   "fake_out_message": "{user.mention} Try to avoid deleting your question, by either editing the message or using {resolve_emoji_raw} {resolve_emoji} to free-up the channel first.",
   "prompt_message": [
