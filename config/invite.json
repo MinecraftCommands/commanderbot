@@ -1,7 +1,7 @@
 [
   {
     "invite": "https://discord.gg/QAFXFtZ",
-    "tags": "here commands minecraftcommands minecraft mcc /r/mcc /r/minecraftcommands"
+    "tags": "here commands minecraftcommands mcc /r/mcc /r/minecraftcommands"
   },
   {
     "invite": "https://discord.gg/QRE99eS",
@@ -20,10 +20,6 @@
     "tags": "phi"
   },
   {
-    "invite": "https://discord.gg/v6v4pMv",
-    "tags": "fabric"
-  },
-  {
     "invite": "https://discord.gg/3mMpcwW",
     "tags": "optifine"
   },
@@ -37,7 +33,7 @@
   },
   {
     "invite": "https://discord.gg/CM52CAH",
-    "tags": "tmc technical minecraft redstone survival"
+    "tags": "tmc technical redstone survival"
   },
   {
     "invite": "http://discord.gg/DQc9k9a",
@@ -58,6 +54,10 @@
   {
     "invite": "https://discord.gg/UvedJ9m",
     "tags": "forge mods modded"
+  },
+  {
+    "invite": "https://discord.gg/v6v4pMv",
+    "tags": "fabric mods modded"
   },
   {
     "invite": "https://discord.gg/MZfRYb7",
