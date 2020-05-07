@@ -61,14 +61,14 @@
   },
   {
     "invite": "https://discord.gg/MZfRYb7",
-    "tags": "admincraft bukkit craftbukkit paper spigot sponge plugins plugin"
+    "tags": "admincraft bukkit craftbukkit plugins plugin"
   },
   {
     "invite": "https://discord.gg/sponge",
-    "tags": "sponge"
+    "tags": "sponge plugin plugins"
   },
   {
     "invite": "https://discord.gg/CK8vgg6",
-    "tags": "spigot"
+    "tags": "spigot plugin plugins"
   }
 ]
