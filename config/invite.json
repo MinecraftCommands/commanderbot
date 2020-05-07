@@ -28,20 +28,12 @@
     "tags": "optifine"
   },
   {
-    "invite": "https://discord.gg/MZfRYb7",
-    "tags": "admincraft bukkit craftbukkit paper spigot sponge plugins plugin"
-  },
-  {
     "invite": "http://discord.gg/46JUdQb",
     "tags": "bedrock scripting"
   },
   {
     "invite": "https://discord.gg/minecraft",
     "tags": "minecraft official mcpe"
-  },
-  {
-    "invite": "https://discord.gg/moddedmc",
-    "tags": "moddedmc mods modded ftb feedthebeast"
   },
   {
     "invite": "https://discord.gg/CM52CAH",
@@ -60,11 +52,23 @@
     "tags": "support help community"
   },
   {
+    "invite": "https://discord.gg/moddedmc",
+    "tags": "moddedmc mods modded ftb feedthebeast"
+  },
+  {
+    "invite": "https://discord.gg/UvedJ9m",
+    "tags": "forge mods modded"
+  },
+  {
+    "invite": "https://discord.gg/MZfRYb7",
+    "tags": "admincraft bukkit craftbukkit paper spigot sponge plugins plugin"
+  },
+  {
     "invite": "https://discord.gg/sponge",
     "tags": "sponge"
   },
   {
-    "invite": "https://discord.gg/UvedJ9m",
-    "tags": "forge"
+    "invite": "https://discord.gg/CK8vgg6",
+    "tags": "spigot"
   }
 ]
