@@ -41,7 +41,7 @@
   },
   {
     "invite": "https://discord.gg/moddedmc",
-    "tags": "moddedmc mods modded forge ftb feedthebeast"
+    "tags": "moddedmc mods modded ftb feedthebeast"
   },
   {
     "invite": "https://discord.gg/CM52CAH",
@@ -58,5 +58,13 @@
   {
     "invite": "https://discord.gg/58Sxm23",
     "tags": "support help community"
+  },
+  {
+    "invite": "https://discord.gg/sponge",
+    "tags": "sponge"
+  },
+  {
+    "invite": "https://discord.gg/UvedJ9m",
+    "tags": "forge"
   }
 ]
