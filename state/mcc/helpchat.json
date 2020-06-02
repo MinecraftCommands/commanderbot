@@ -46,6 +46,8 @@
   "helper_role": "154919580563800064",
   "ignored_role": "704455290912899143",
   "renamed_role": "702182065394679849",
+  
+  "second_to_throttle": 900,
 
   "channels": [
     { "key": "1", "id": "154778900835205120" },
