@@ -126,7 +126,8 @@
           "Shaders",
           "Structures",
           "Text-components",
-          "Recipes"
+          "Recipes",
+          "World-gen"
         ]
       }
     },
