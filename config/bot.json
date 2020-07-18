@@ -13,10 +13,7 @@
     "127163300348821504",
     "187961803844747264"
   ],
-  "staff_roles": [
-    "154919514553712640",
-    "247061977136889856"
-  ],
+  "staff_roles": ["154919514553712640", "247061977136889856"],
   "extensions": [
     "cogbot.extensions.about",
     "cogbot.extensions.say",
@@ -24,7 +21,7 @@
     "cogbot.extensions.vote",
     "cogbot.extensions.nominate",
     "cogbot.extensions.kick",
-    "cogbot.extensions.groups",
+    "cogbot.extensions.joinleave",
     "cogbot.extensions.helpchat",
     "cogbot.extensions.invite",
     "cogbot.extensions.faq",
@@ -107,26 +104,99 @@
         "https://github.com/Yurihaia/nbtdoc-rs"
       ]
     },
-    "cogbot.extensions.groups": {
-      "cooldown_rate": 10,
-      "cooldown_per": 600,
-      "server_groups": {
-        "154777837382008833": [
-          "Add-ons",
-          "Advancements",
-          "Fonts",
-          "Game-code",
-          "Loot-tables",
-          "Models",
-          "NBT",
-          "Optimization",
-          "Predicates",
-          "Resource-packs",
-          "Shaders",
-          "Structures",
-          "Text-components",
-          "Recipes",
-          "World-gen"
+    "cogbot.extensions.joinleave": {
+      "mcc": {
+        "roles": [
+          {
+            "role_id": "707599657659793482",
+            "name": "Snapshot Notify",
+            "aliases": ["snapshot"]
+          },
+          {
+            "role_id": "711353198274805831",
+            "name": "Game-night Notify",
+            "aliases": ["game-night", "game night", "gamenight"]
+          },
+          {
+            "role_id": "734105965296746526",
+            "name": "Meta",
+            "aliases": ["meta"]
+          },
+          {
+            "role_id": "248156358921289738",
+            "name": "Add-ons",
+            "aliases": ["add-ons", "add ons", "addons"]
+          },
+          {
+            "role_id": "297361708329074688",
+            "name": "Advancements",
+            "aliases": ["advancements"]
+          },
+          {
+            "role_id": "667372614796312587",
+            "name": "Fonts",
+            "aliases": ["fonts"]
+          },
+          {
+            "role_id": "263411432928837634",
+            "name": "Game-code",
+            "aliases": ["game-code", "game code", "gamecode"]
+          },
+          {
+            "role_id": "248156533429501954",
+            "name": "Loot-tables",
+            "aliases": ["loot-tables", "loot tables", "loottables"]
+          },
+          {
+            "role_id": "248156619463065600",
+            "name": "Models",
+            "aliases": ["models"]
+          },
+          {
+            "role_id": "248156398448279553",
+            "name": "NBT",
+            "aliases": ["nbt"]
+          },
+          {
+            "role_id": "667372705674166284",
+            "name": "Optimization",
+            "aliases": ["optimization"]
+          },
+          {
+            "role_id": "667372764880961536",
+            "name": "Predicates",
+            "aliases": ["predicates"]
+          },
+          {
+            "role_id": "385052801253900288",
+            "name": "Recipes",
+            "aliases": ["recipes"]
+          },
+          {
+            "role_id": "248156581940690944",
+            "name": "Resource-packs",
+            "aliases": ["resource-packs", "resource packs", "resourcepacks"]
+          },
+          {
+            "role_id": "667372822037004299",
+            "name": "Shaders",
+            "aliases": ["shaders"]
+          },
+          {
+            "role_id": "248156682486546433",
+            "name": "Structures",
+            "aliases": ["structures"]
+          },
+          {
+            "role_id": "248156480530808832",
+            "name": "Text-components",
+            "aliases": ["text-components", "text components", "textcomponents"]
+          },
+          {
+            "role_id": "731187976121614385",
+            "name": "World-gen",
+            "aliases": ["world-gen", "world gen", "worldgen"]
+          }
         ]
       }
     },
@@ -152,9 +222,7 @@
     "cogbot.extensions.custodian": {
       "servers": {
         "mcc": {
-          "roles": [
-            "154919580563800064"
-          ]
+          "roles": ["154919580563800064"]
         }
       }
     },
