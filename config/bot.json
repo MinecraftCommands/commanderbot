@@ -18,7 +18,6 @@
     "247061977136889856"
   ],
   "extensions": [
-    "cogbot.extensions.proto",
     "cogbot.extensions.about",
     "cogbot.extensions.say",
     "cogbot.extensions.react",
