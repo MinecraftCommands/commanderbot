@@ -6,7 +6,7 @@
     }
   },
   "command_prefix": [">", "."],
-  "description": "The /r/MinecraftCommands personal assistant.",
+  "description": "The Minecraft Commands personal assistant.",
   "notify_on_recovery": false,
   "managers": [
     "135616361157099520",
