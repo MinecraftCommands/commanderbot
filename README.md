@@ -1,2 +1,2 @@
 # CommanderBot
-The /r/MinecraftCommands personal assistant.
+The Minecraft Commands personal assistant.
