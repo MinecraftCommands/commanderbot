@@ -15,13 +15,13 @@
   ],
   "staff_roles": ["154919514553712640", "247061977136889856"],
   "extensions": [
+    "cogbot.cogs.join_leave",
     "cogbot.extensions.about",
     "cogbot.extensions.say",
     "cogbot.extensions.react",
     "cogbot.extensions.vote",
     "cogbot.extensions.nominate",
     "cogbot.extensions.kick",
-    "cogbot.extensions.joinleave",
     "cogbot.extensions.helpchat",
     "cogbot.extensions.invite",
     "cogbot.extensions.faq",
@@ -39,14 +39,14 @@
     "cogbot.extensions.ping"
   ],
   "extension_state": {
+    "cogbot.cogs.join_leave": {
+      "servers": {
+        "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/joinleave.json"
+      }
+    },
     "cogbot.extensions.helpchat": {
       "servers": {
         "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/helpchat.json"
-      }
-    },
-    "cogbot.extensions.joinleave": {
-      "servers": {
-        "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/joinleave.json"
       }
     },
     "cogbot.extensions.nominate": {
