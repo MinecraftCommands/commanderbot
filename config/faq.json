@@ -350,5 +350,9 @@
   "position selecting": {
     "message": "https://discordapp.com/channels/154777837382008833/157097006500806656/704002275332456468",
     "tags": "position selector selectors selection distance dx dy dz"
+  },
+  "rng": {
+    "message": "https://www.reddit.com/r/MinecraftCommands/wiki/questions/randomnumber",
+    "tags": "rng"
   }
 }
