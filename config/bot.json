@@ -41,7 +41,7 @@
   "extension_state": {
     "cogbot.cogs.join_leave": {
       "servers": {
-        "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/joinleave.json"
+        "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/join_leave.json"
       }
     },
     "cogbot.extensions.helpchat": {
