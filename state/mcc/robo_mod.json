@@ -17,8 +17,7 @@
       "actions": [
         {
           "type": "DELETE_MESSAGE",
-          "log_to_channel": "751923836584329377",
-          "notify_roles": ["247061977136889856"]
+          "log_to_channel": "751923836584329377"
         },
         {
           "type": "ADD_ROLES_TO_AUTHOR",
