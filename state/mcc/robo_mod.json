@@ -6,9 +6,6 @@
       "trigger_type": "MESSAGE_SENT",
       "conditions": [
         {
-          "type": "MESSAGE_HAS_EMBED_OR_ATTACHMENT"
-        },
-        {
           "type": "MESSAGE_CONTAINS_ANY_OF",
           "matches": [
             "deletemexxx",
