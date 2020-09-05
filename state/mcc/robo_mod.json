@@ -20,13 +20,13 @@
       "actions": [
         {
           "type": "DELETE_MESSAGE",
-          "log_to_channel": "614509905889460235",
+          "log_to_channel": "751923836584329377",
           "notify_roles": ["247061977136889856"]
         },
         {
           "type": "ADD_ROLES_TO_AUTHOR",
           "roles": ["751895394694201355"],
-          "log_to_channel": "614509905889460235"
+          "log_to_channel": "751923836584329377"
         }
       ]
     }
