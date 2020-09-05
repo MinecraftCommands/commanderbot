@@ -1,0 +1,34 @@
+{
+  "rules": [
+    {
+      "name": "Cryptocurrency spam",
+      "description": "Delete cryptocurrency scam spam message and tag the author",
+      "trigger_type": "MESSAGE_SENT",
+      "conditions": [
+        {
+          "type": "MESSAGE_HAS_EMBED_OR_ATTACHMENT"
+        },
+        {
+          "type": "MESSAGE_CONTAINS_ANY_OF",
+          "matches": [
+            "owo",
+            "https://libra-sale.io",
+            "https://ethway.io"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "DELETE_MESSAGE",
+          "log_to_channel": "614509905889460235",
+          "notify_roles": ["247061977136889856"]
+        },
+        {
+          "type": "ADD_ROLES_TO_AUTHOR",
+          "roles": ["751895394694201355"],
+          "log_to_channel": "614509905889460235"
+        }
+      ]
+    }
+  ]
+}
