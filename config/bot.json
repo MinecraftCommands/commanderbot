@@ -16,6 +16,7 @@
   "staff_roles": ["154919514553712640", "247061977136889856"],
   "extensions": [
     "cogbot.cogs.join_leave",
+    "cogbot.cogs.robo_mod",
     "cogbot.extensions.about",
     "cogbot.extensions.say",
     "cogbot.extensions.react",
@@ -42,6 +43,11 @@
     "cogbot.cogs.join_leave": {
       "servers": {
         "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/join_leave.json"
+      }
+    },
+    "cogbot.cogs.robo_mod": {
+      "servers": {
+        "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/robo_mod.json"
       }
     },
     "cogbot.extensions.helpchat": {
