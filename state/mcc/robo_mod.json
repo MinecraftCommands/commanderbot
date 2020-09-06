@@ -1,8 +1,11 @@
 {
+  "log_channel": "751923836584329377",
   "rules": [
     {
       "name": "Cryptocurrency spam",
       "description": "Delete cryptocurrency scam spam message and tag the author",
+      "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/752207377264148523/money-bag_1f4b0.png",
+      "log_color": "#FDD888",
       "trigger_type": "MESSAGE_SENT",
       "conditions": [
         {
@@ -16,13 +19,11 @@
       ],
       "actions": [
         {
-          "type": "DELETE_MESSAGE",
-          "log_to_channel": "751923836584329377"
+          "type": "DELETE_MESSAGE"
         },
         {
           "type": "ADD_ROLES_TO_AUTHOR",
-          "roles": ["751895394694201355"],
-          "log_to_channel": "751923836584329377"
+          "roles": ["751895394694201355"]
         }
       ]
     }
