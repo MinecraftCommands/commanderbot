@@ -47,11 +47,11 @@
       ],
       "actions": [
         {
-          "type": "DELETE_MESSAGE"
-        },
-        {
           "type": "ADD_ROLES_TO_AUTHOR",
           "roles": ["751895394694201355"]
+        },
+        {
+          "type": "DELETE_MESSAGE"
         }
       ]
     }
