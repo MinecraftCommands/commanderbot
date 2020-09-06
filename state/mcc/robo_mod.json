@@ -2,60 +2,6 @@
   "log_channel": "751923836584329377",
   "rules": [
     {
-      "name": "Member joined",
-      "description": "Record whenever a member joins the server",
-      "log_icon": "https://cdn.discordapp.com/attachments/614533647768485922/752265645181239326/waving-hand_1f44b.png",
-      "log_color": "#FFDD5D",
-      "log_channel": "536996005783142410",
-      "trigger_type": "MEMBER_JOINED",
-      "conditions": [],
-      "actions": [
-        {
-          "type": "LOG_MEMBER_JOINED"
-        }
-      ]
-    },
-    {
-      "name": "Member left",
-      "description": "Record whenever a member leaves the server",
-      "log_icon": "https://cdn.discordapp.com/attachments/614533647768485922/752266225748279356/door_1f6aa.png",
-      "log_color": "#C06951",
-      "log_channel": "536996005783142410",
-      "trigger_type": "MEMBER_LEFT",
-      "conditions": [],
-      "actions": [
-        {
-          "type": "LOG_MEMBER_LEFT"
-        }
-      ]
-    },
-    {
-      "name": "Member banned",
-      "description": "Record whenever a member is banned",
-      "log_icon": "https://cdn.discordapp.com/attachments/614533647768485922/752307357287186450/face-with-symbols-on-mouth_1f92c.png",
-      "log_color": "#DA2F47",
-      "trigger_type": "MEMBER_BANNED",
-      "conditions": [],
-      "actions": [
-        {
-          "type": "LOG_MEMBER_BANNED"
-        }
-      ]
-    },
-    {
-      "name": "Member unbanned",
-      "description": "Record whenever a member is unbanned",
-      "log_icon": "https://cdn.discordapp.com/attachments/614533647768485922/752307265729462333/smiling-face-with-halo_1f607.png",
-      "log_color": "#5DAEED",
-      "trigger_type": "MEMBER_UNBANNED",
-      "conditions": [],
-      "actions": [
-        {
-          "type": "LOG_MEMBER_UNBANNED"
-        }
-      ]
-    },
-    {
       "name": "Cryptocurrency spam",
       "description": "Delete cryptocurrency scam spam message and tag the author",
       "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/752207377264148523/money-bag_1f4b0.png",
