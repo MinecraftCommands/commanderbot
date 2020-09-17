@@ -71,6 +71,7 @@
         {
           "type": "MESSAGE_CONTAINS_ANY_OF",
           "matches": [
+            "https://omg-airdrop.io",
             "https://libra-sale.io",
             "https://ethway.io",
             "deletemexxx"
