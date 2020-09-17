@@ -71,6 +71,7 @@
         {
           "type": "MESSAGE_CONTAINS_ANY_OF",
           "matches": [
+            "https://linkairdrop.io",
             "https://omg-airdrop.io",
             "https://libra-sale.io",
             "https://ethway.io",
