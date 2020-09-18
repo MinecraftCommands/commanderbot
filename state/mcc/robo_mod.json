@@ -70,6 +70,7 @@
       "conditions": [
         {
           "type": "MESSAGE_CONTAINS_ANY_OF",
+          "ignore_case": true,
           "matches": [
             "And heres the Tweet: https://img",
             "And heres the Tweet: img",
