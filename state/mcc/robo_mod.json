@@ -129,7 +129,8 @@
           "normalize_unicode": false,
           "matches": [
             ".ⅰo",
-            ".ⅽom"
+            ".ⅽom",
+            ".deletemexxx"
           ]
         }
       ],
