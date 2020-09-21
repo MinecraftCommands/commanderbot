@@ -126,6 +126,7 @@
         {
           "type": "MESSAGE_CONTAINS_ANY_OF",
           "ignore_case": true,
+          "normalize_unicode": false,
           "matches": [
             ".ⅰo",
             ".ⅽom"
