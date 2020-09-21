@@ -114,6 +114,33 @@
           "type": "DELETE_MESSAGE"
         }
       ]
+    },
+    {
+      "name": "Cryptocurrency spam URL endings",
+      "description": "Delete cryptocurrency scam spam message and tag the author",
+      "log_emoji": ":moneybag:",
+      "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/752207377264148523/money-bag_1f4b0.png",
+      "log_color": "#FDD888",
+      "trigger_type": "MESSAGE_SENT",
+      "conditions": [
+        {
+          "type": "MESSAGE_CONTAINS_ANY_OF",
+          "ignore_case": true,
+          "matches": [
+            ".ⅰo",
+            ".ⅽom"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_ROLES_TO_AUTHOR",
+          "roles": ["751895394694201355"]
+        },
+        {
+          "type": "DELETE_MESSAGE"
+        }
+      ]
     }
   ]
 }
