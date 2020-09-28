@@ -66,7 +66,7 @@
       "log_emoji": ":moneybag:",
       "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/752207377264148523/money-bag_1f4b0.png",
       "log_color": "#FDD888",
-      "trigger_type": "MESSAGE_SENT",
+      "trigger_type": "MESSAGE",
       "conditions": [
         {
           "type": "MESSAGE_CONTAINS_ANY_OF",
@@ -121,7 +121,7 @@
       "log_emoji": ":moneybag:",
       "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/752207377264148523/money-bag_1f4b0.png",
       "log_color": "#FDD888",
-      "trigger_type": "MESSAGE_SENT",
+      "trigger_type": "MESSAGE",
       "conditions": [
         {
           "type": "MESSAGE_CONTAINS_ANY_OF",
