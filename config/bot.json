@@ -111,6 +111,7 @@
       "repos": [
         "https://github.com/MinecraftCommands/commanderbot",
         "https://github.com/Arcensoth/mcdata",
+        "https://github.com/Ersatz77/bedrock-data",
         "https://github.com/Yurihaia/mc-nbtdoc",
         "https://github.com/Yurihaia/nbtdoc-rs"
       ]
