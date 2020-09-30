@@ -122,6 +122,7 @@
       "max_results": 10,
       "help_url": "https://minecraft.gamepedia.com/Commands/{command}",
       "database": "https://raw.githubusercontent.com/Arcensoth/mcdata",
+      "bedrock_database": "https://raw.githubusercontent.com/Ersatz77/bedrock-data",
       "presence_version": "master",
       "show_versions": ["master"],
       "version_labels": {
