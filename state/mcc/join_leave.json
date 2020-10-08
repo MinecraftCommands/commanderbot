@@ -16,6 +16,11 @@
       "aliases": ["meta"]
     },
     {
+      "role_id": "763777708051791872",
+      "name": "Archive",
+      "aliases": ["archive"]
+    },
+    {
       "role_id": "248156358921289738",
       "name": "Add-ons",
       "aliases": ["add-ons", "add ons", "addons"]
