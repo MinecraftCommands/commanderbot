@@ -23,7 +23,7 @@
     "cogbot.extensions.vote",
     "cogbot.extensions.nominate",
     "cogbot.extensions.kick",
-    "cogbot.extensions.helpchat",
+    "!cogbot.extensions.helpchat",
     "cogbot.extensions.invite",
     "cogbot.extensions.faq",
     "cogbot.extensions.mccq",
