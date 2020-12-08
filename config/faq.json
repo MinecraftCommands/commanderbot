@@ -55,6 +55,7 @@
       "                :open_file_folder: `dimension`",
       "                :open_file_folder: `dimension_type`",
       "                :open_file_folder: `functions`",
+      "                :open_file_folder: `item_modifiers`",
       "                :open_file_folder: `loot_tables`",
       "                :open_file_folder: `predicates`",
       "                :open_file_folder: `recipes`",
@@ -79,6 +80,7 @@
       "                    :open_file_folder: `functions`",
       "                        :page_facing_up: `load.json`",
       "                        :page_facing_up: `tick.json`"
+      "                    :open_file_folder: `game_events`",
     ],
     "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout",
     "aliases": ["datapack structure", "data-pack structure", "dps"]
@@ -230,7 +232,7 @@
     "tags": "tag json datapack tags groups group tick.json load.json"
   },
   "data pack template": {
-    "message": "<https://discordapp.com/channels/154777837382008833/157097006500806656/725458075179417801>",
+    "message": "<https://discord.com/channels/154777837382008833/157097006500806656/785953462747791441>",
     "tags": "datapack data pack template",
     "aliases": ["datapack template", "data-pack template", "dpt"]
   },
