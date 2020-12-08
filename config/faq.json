@@ -79,8 +79,8 @@
       "                :open_file_folder: `tags`",
       "                    :open_file_folder: `functions`",
       "                        :page_facing_up: `load.json`",
-      "                        :page_facing_up: `tick.json`"
-      "                    :open_file_folder: `game_events`",
+      "                        :page_facing_up: `tick.json`",
+      "                    :open_file_folder: `game_events`"
     ],
     "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout",
     "aliases": ["datapack structure", "data-pack structure", "dps"]
