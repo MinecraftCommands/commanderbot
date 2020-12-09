@@ -179,7 +179,7 @@
         },
         {
           "type": "REPLY_TO_AUTHOR",
-          "content": "Have questions or need help with a command or map-making related project? Please read <#247071734384164865> and ask questions in an available ask-here channel."
+          "content": "Have questions or need help with a command or map-making related project? Please read <#247071734384164865> and ask questions in an available `👋ask-here` channel."
         }
       ]
     }
