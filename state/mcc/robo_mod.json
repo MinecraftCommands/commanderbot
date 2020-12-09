@@ -154,6 +154,7 @@
     {
       "name": "Relocate",
       "description": "Relocate users to help-chats",
+      "log_channel": "614509905889460235",
       "log_emoji": ":arrow_right:",
       "log_icon": "https://cdn.discordapp.com/attachments/613193475780771872/776936656317186078/right-arrow_27a1.png",
       "log_color": "#3B88C3",
