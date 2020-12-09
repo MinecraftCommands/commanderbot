@@ -150,7 +150,8 @@
     "cogbot.extensions.custodian": {
       "servers": {
         "mcc": {
-          "roles": ["154919580563800064"]
+          "roles": ["154919580563800064"],
+          "free_for_all": 60
         }
       }
     },
