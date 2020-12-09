@@ -164,10 +164,19 @@
         },
         {
           "type": "REACTION_MATCHES",
-          "reactions": ["➡️", "<:relocate:614073716103708672>"]
+          "reactions": ["<:relocate:614073716103708672>"],
+          "first_only": true
         }
       ],
       "actions": [
+        {
+          "type": "ADD_REACTIONS",
+          "reactions": ["<:relocate:614073716103708672>"]
+        },
+        {
+          "type": "LOG_CUSTOM",
+          "content": "{actor.mention} relocated {author.mention} in {channel.mention}."
+        },
         {
           "type": "REPLY_TO_AUTHOR",
           "content": "Have questions or need help with a command or map-making related project? Please read <#247071734384164865> and ask questions in an available ask-here channel."
