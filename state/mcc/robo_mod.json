@@ -204,6 +204,10 @@
       "actions": [
         {
           "type": "DELETE_MESSAGE"
+        },
+        {
+          "type": "LOG_CUSTOM",
+          "content": "Deleted a server invite from {author.mention} in {channel.mention}."
         }
       ]
     }
