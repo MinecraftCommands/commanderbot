@@ -183,6 +183,29 @@
           "content": "Have questions or need help with a command or map-making related project? Please read <#247071734384164865> and ask questions in an available `👋ask-here` channel."
         }
       ]
+    },
+    {
+      "name": "Server invite",
+      "description": "Delete specific server invites",
+      "log_emoji": ":desktop_computer:",
+      "log_icon": "https://cdn.discordapp.com/attachments/704812582900465665/792620214906781696/desktop-computer_1f5a5.png",
+      "log_color": "#37d4b4",
+      "trigger_type": "MESSAGE",
+      "conditions": [
+        {
+          "type": "MESSAGE_CONTAINS_ANY_OF",
+          "ignore_case": true,
+          "normalize_unicode": true,
+          "matches": [
+            "https://discord.gg/wavfwcu"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "DELETE_MESSAGE"
+        }
+      ]
     }
   ]
 }
