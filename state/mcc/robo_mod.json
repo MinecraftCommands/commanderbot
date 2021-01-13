@@ -152,6 +152,70 @@
       ]
     },
     {
+      "name": "Block new user media",
+      "description": "Block newly-created accounts from posting external media",
+      "log_emoji": ":poop:",
+      "log_icon": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/259/pile-of-poo_1f4a9.png",
+      "log_color": "#BF6952",
+      "trigger_type": "MESSAGE",
+      "conditions": [
+        {
+          "type": "AUTHOR_ACCOUNT_AGE",
+          "less_than": {
+            "minutes": 240
+          }
+        },
+        {
+          "type": "MESSAGE_CONTAINS_EXTERNAL_MEDIA"
+        }
+      ],
+      "actions": [
+        {
+          "type": "LOG_CUSTOM",
+          "content": "Newly-created account {author.mention} posted external media in {channel.mention}."
+        },
+        {
+          "type": "ADD_ROLES_TO_AUTHOR",
+          "roles": ["751895394694201355"]
+        },
+        {
+          "type": "DELETE_MESSAGE"
+        }
+      ]
+    },
+    {
+      "name": "Block new member media",
+      "description": "Block newly-joined members from posting external media",
+      "log_emoji": ":poop:",
+      "log_icon": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/259/pile-of-poo_1f4a9.png",
+      "log_color": "#BF6952",
+      "trigger_type": "MESSAGE",
+      "conditions": [
+        {
+          "type": "AUTHOR_HAS_BEEN_MEMBER_FOR",
+          "less_than": {
+            "minutes": 240
+          }
+        },
+        {
+          "type": "MESSAGE_CONTAINS_EXTERNAL_MEDIA"
+        }
+      ],
+      "actions": [
+        {
+          "type": "LOG_CUSTOM",
+          "content": "Newly-joined member {author.mention} posted external media in {channel.mention}."
+        },
+        {
+          "type": "ADD_ROLES_TO_AUTHOR",
+          "roles": ["751895394694201355"]
+        },
+        {
+          "type": "DELETE_MESSAGE"
+        }
+      ]
+    },
+    {
       "name": "Relocate",
       "description": "Relocate users to help-chats",
       "log_channel": "614509905889460235",
