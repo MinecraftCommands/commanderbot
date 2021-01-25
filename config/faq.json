@@ -1,8 +1,7 @@
 {
   "raycasting": {
     "message": "Raycasting is a method of \"drawing\" a line from the head of a mob to detect where it looks at. It works by recursively executing a function positioned ^ ^ ^0.1, which make it run 0.1 blocks forward in the direction the mob is looking at. You can generate a raycasting datapack using https://skylinerw.com/vdvman1/raycast/ .",
-    "tags": "ray raycasting"
-  },
+    "tags": "ray raycasting raycast"
   "help-chat": {
     "message": "https://discordapp.com/channels/154777837382008833/321747035403452417/685974609492705299",
     "tags": "help chat helpchat helpchats chats"
