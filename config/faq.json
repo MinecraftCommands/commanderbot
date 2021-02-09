@@ -43,6 +43,10 @@
     "message": "https://i.imgur.com/aL8XRaq.png",
     "tags": "game output log gamelog debugging"
   },
+  "content log": {
+    "message": "https://i.imgur.com/3Hcgkrx.png",
+    "tags": "bedrock content-log output log debugging"
+  },
   "data pack structure": {
     "message": [
       "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
@@ -150,11 +154,12 @@
       "    :open_file_folder: `spawn_rules`",
       "    :open_file_folder: `structures`",
       "    :open_file_folder: `texts`",
-      "        :page_facing_up: `<locale>.lang`",
       "        :page_facing_up: `language_names.json`",
       "        :page_facing_up: `languages.json`",
       "    :open_file_folder: `trading`",
-      "        :open_file_folder: `economy_trades`"
+      "        :open_file_folder: `economy_trades`",
+      " ",
+      "<https://wiki.bedrock.dev/schemas/behavior-folder>"
     ],
     "tags": "bedrock behavior pack packs behavior-pack behavior-packs structure format layout",
     "aliases": ["behavior-pack structure", "bps"]
@@ -184,7 +189,6 @@
       "        :page_facing_up: `music_definitions.json`",
       "        :page_facing_up: `sound_definitions.json`",
       "    :open_file_folder: `texts`",
-      "        :page_facing_up: `<locale>.lang`",
       "        :page_facing_up: `language_names.json`",
       "        :page_facing_up: `languages.json`",
       "    :open_file_folder: `textures`",
@@ -204,11 +208,12 @@
       "            :open_file_folder: `armor`",
       "        :open_file_folder: `painting`",
       "        :open_file_folder: `particle`",
-      "        :open_file_folder: `persona_thumbnails`",
       "        :open_file_folder: `ui`",
-      "    :open_file_folder: `ui`"
+      "    :open_file_folder: `ui`",
+      " ",
+      "<https://wiki.bedrock.dev/schemas/resource-folder>"
     ],
-    "tags": "bedrock resource pack packs behavior-pack behavior-packs structure format layout",
+    "tags": "bedrock resource pack packs resource-pack resource-packs structure format layout",
     "aliases": ["bedrock resourcepack structure", "bedrock resource-pack structure", "brps"]
   },
   "player slots": {
@@ -315,14 +320,14 @@
       "  },",
       "  \"modules\": [",
       "    {",
-      "      \"type\": \"<resources|data|client_data|interface|world_template>\",",
+      "      \"type\": \"<resources|data|world_template>\",",
       "      \"uuid\": \"743f6949-53be-44b6-b326-398005028819\",",
       "      \"version\": [ 1, 0, 0 ]",
       "    }",
       "  ]",
       "}",
       "```",
-      "This is just the bare minimum that's required for a manifest. You can see everything a manifest can have here:",
+      "This is just the minimum that's required for a manifest that has no dependencies. You can see everything a manifest can have here:",
       "<https://bedrock.dev/docs/stable/Addons#manifest.json>"
     ],
     "tags": "bedrock manifest json"
@@ -351,6 +356,22 @@
     "message": "<https://discordapp.com/channels/154777837382008833/157097006500806656/681229223821705235>",
     "tags": "resourcepack resource pack template",
     "aliases": ["resourcepack template", "resource-pack template", "rpt"]
+  },
+  "bedrock vanilla packs": {
+    "message": [
+      "**Latest stable release**",
+      "Behavior pack: https://aka.ms/behaviorpacktemplate",
+      "Resource pack: https://aka.ms/resourcepacktemplate",
+      " ",
+      "**Latest beta release**",
+      "Behavior pack: https://aka.ms/minecraftbetabehaviors",
+      "Resource pack: https://aka.ms/minecraftbetaresources",
+      " ",
+      "**Other packs**",
+      "Particle examples: https://aka.ms/MCParticlesPack"
+    ],
+    "tags": "bedrock behavior resource pack packs template",
+    "aliases": [ "bedrock vanilla pack", "bvp" ]
   },
   "mccq": {
     "message": [
