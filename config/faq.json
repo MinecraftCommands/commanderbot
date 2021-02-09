@@ -151,6 +151,7 @@
       "    :open_file_folder: `structures`",
       "    :open_file_folder: `texts`",
       "        :scroll: `<locale>.lang`",
+      "        :scroll: `language_names.json`",
       "        :scroll: `languages.json`",
       "    :open_file_folder: `trading`",
       "        :open_file_folder: `economy_trades`"
@@ -186,6 +187,7 @@
       "        :scroll: `sound_definitions.json`",
       "    :open_file_folder: `texts`",
       "        :scroll: `<locale>.lang`",
+      "        :scroll: `language_names.json`",
       "        :scroll: `languages.json`",
       "    :open_file_folder: `textures`",
       "        :scroll: `flipbook_textures.json`",
