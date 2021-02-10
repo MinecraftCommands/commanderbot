@@ -538,6 +538,7 @@
       "minecraft:bad_omen                31",
       "minecraft:hero_of_the_village     32```"
     ],
+    "tags": "effect effects potion potions",
     "aliases": ["effect ids", "effects ids", "potion effect ids", "pei", "effects", "ei", "effect"]
   }
 }
