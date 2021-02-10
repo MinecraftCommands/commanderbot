@@ -502,5 +502,42 @@
   "recruitment": {
     "message": "If your message was deleted from <#673857002216095755> or you were blocked from the channel, it means you were not following the standards. Read all of the pins in <#673857002216095755> and browse previous messages to better understand what the channel is about.",
     "tags": "recruitment"
+  },
+  "potion effects ids": {
+    "message": [
+      "```minecraft:speed                   1",
+      "minecraft:slowness                2",
+      "minecraft:haste                   3",
+      "minecraft:mining_fatigue          4",
+      "minecraft:strength                5",
+      "minecraft:instant_health          6",
+      "minecraft:instant_damage          7",
+      "minecraft:jump_boost              8",
+      "minecraft:nausea                  9",
+      "minecraft:regeneration            10",
+      "minecraft:resistance              11",
+      "minecraft:fire_resistance         12",
+      "minecraft:water_breathing         13",
+      "minecraft:invisibility            14",
+      "minecraft:blindness               15",
+      "minecraft:night_vision            16",
+      "minecraft:hunger                  17",
+      "minecraft:weakness                18",
+      "minecraft:poison                  19",
+      "minecraft:wither                  20",
+      "minecraft:health_boost            21",
+      "minecraft:absorption              22",
+      "minecraft:saturation              23",
+      "minecraft:glowing                 24",
+      "minecraft:levitation              25",
+      "minecraft:luck                    26",
+      "minecraft:unluck                  27",
+      "minecraft:slow_falling            28",
+      "minecraft:conduit_power           29",
+      "minecraft:dolphins_grace          30",
+      "minecraft:bad_omen                31",
+      "minecraft:hero_of_the_village     32```"
+    ],
+    "aliases": ["effect ids", "effects ids", "potion effect ids", "pei", "effects", "ei", "effect"]
   }
 }
