@@ -47,6 +47,10 @@
     "message": "https://i.imgur.com/aL8XRaq.png",
     "tags": "game output log gamelog debugging"
   },
+  "content log": {
+    "message": "https://i.imgur.com/3Hcgkrx.png",
+    "tags": "bedrock content-log output log debugging"
+  },
   "data pack structure": {
     "message": [
       "https://discordapp.com/channels/154777837382008833/157097006500806656/510121232147152906",
@@ -130,6 +134,91 @@
     ],
     "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout",
     "aliases": ["resourcepack structure", "resource-pack structure", "rps"]
+  },
+  "behavior pack structure": {
+    "message": [
+      ":open_file_folder: `<behavior_pack>`",
+      "    :scroll: `manifest.json`",
+      "    :frame_photo: `pack_icon.png`",
+      "    :open_file_folder: `animation_controllers`",
+      "    :open_file_folder: `animations`",
+      "    :open_file_folder: `biomes`",
+      "    :open_file_folder: `blocks`",
+      "    :open_file_folder: `entities`",
+      "    :open_file_folder: `feature_rules`",
+      "    :open_file_folder: `features`",
+      "    :open_file_folder: `functions`",
+      "        :page_facing_up: `tick.json`",
+      "    :open_file_folder: `items`",
+      "    :open_file_folder: `loot_tables`",
+      "    :open_file_folder: `recipes`",
+      "    :open_file_folder: `scripts`",
+      "        :open_file_folder: `client`",
+      "        :open_file_folder: `server`",
+      "    :open_file_folder: `spawn_rules`",
+      "    :open_file_folder: `structures`",
+      "    :open_file_folder: `texts`",
+      "        :page_facing_up: `language_names.json`",
+      "        :page_facing_up: `languages.json`",
+      "    :open_file_folder: `trading`",
+      "        :open_file_folder: `economy_trades`",
+      " ",
+      "<https://wiki.bedrock.dev/schemas/behavior-folder>"
+    ],
+    "tags": "bedrock behavior pack packs behavior-pack behavior-packs structure format layout",
+    "aliases": ["behavior-pack structure", "bps"]
+  },
+  "bedrock resource pack structure": {
+    "message": [
+      ":open_file_folder: `<resource_pack>`",
+      "    :page_facing_up: `biomes_client.json`",
+      "    :page_facing_up: `blocks.json`",
+      "    :scroll: `manifest.json`",
+      "    :frame_photo: `pack_icon.png`",
+      "    :page_facing_up: `sounds.json`",
+      "    :open_file_folder: `animation_controllers`",
+      "    :open_file_folder: `animations`",
+      "    :open_file_folder: `attachables`",
+      "    :open_file_folder: `entity`",
+      "    :open_file_folder: `fogs`",
+      "    :open_file_folder: `font`",
+      "    :open_file_folder: `items`",
+      "    :open_file_folder: `materials`",
+      "    :open_file_folder: `models`",
+      "        :open_file_folder: `entity`",
+      "    :open_file_folder: `particles`",
+      "    :open_file_folder: `render_controllers`",
+      "    :open_file_folder: `shaders`",
+      "    :open_file_folder: `sounds`",
+      "        :page_facing_up: `music_definitions.json`",
+      "        :page_facing_up: `sound_definitions.json`",
+      "    :open_file_folder: `texts`",
+      "        :page_facing_up: `language_names.json`",
+      "        :page_facing_up: `languages.json`",
+      "    :open_file_folder: `textures`",
+      "        :page_facing_up: `flipbook_textures.json`",
+      "        :page_facing_up: `item_texture.json`",
+      "        :page_facing_up: `terrain_texture.json`",
+      "        :page_facing_up: `textures_list.json`",
+      "        :open_file_folder: `blocks`",
+      "        :open_file_folder: `colormap`",
+      "        :open_file_folder: `entity`",
+      "        :open_file_folder: `environment`",
+      "        :open_file_folder: `gui`",
+      "        :open_file_folder: `items`",
+      "        :open_file_folder: `map`",
+      "        :open_file_folder: `misc`",
+      "        :open_file_folder: `models`",
+      "            :open_file_folder: `armor`",
+      "        :open_file_folder: `painting`",
+      "        :open_file_folder: `particle`",
+      "        :open_file_folder: `ui`",
+      "    :open_file_folder: `ui`",
+      " ",
+      "<https://wiki.bedrock.dev/schemas/resource-folder>"
+    ],
+    "tags": "bedrock resource pack packs resource-pack resource-packs structure format layout",
+    "aliases": ["bedrock resourcepack structure", "bedrock resource-pack structure", "brps"]
   },
   "player slots": {
     "message": "https://gamepedia.cursecdn.com/minecraft_gamepedia/b/b2/Items_slot_number.png?version=3afad52a1728dd42b02d0bf4b5d5364e",
@@ -220,6 +309,33 @@
     ],
     "tags": "pack mcmeta datapack data resourcepack resource"
   },
+  "manifest.json": {
+    "message": [
+      "**Do not use these UUIDs. Generate your own V4 UUIDs.**",
+      "```json",
+      "{",
+      "  \"format_version\": 2,",
+      "  \"header\": {",
+      "    \"name\": \"A name for your pack\",",
+      "    \"description\": \"A description for your pack\",",
+      "    \"uuid\": \"66c6e9a8-3093-462a-9c36-dbb052165822\",",
+      "    \"version\": [ 1, 0, 0 ],",
+      "    \"min_engine_version\": [ 1, 16, 200 ]",
+      "  },",
+      "  \"modules\": [",
+      "    {",
+      "      \"type\": \"<resources|data|world_template>\",",
+      "      \"uuid\": \"743f6949-53be-44b6-b326-398005028819\",",
+      "      \"version\": [ 1, 0, 0 ]",
+      "    }",
+      "  ]",
+      "}",
+      "```",
+      "This is just the minimum that's required for a manifest that has no dependencies. You can see everything a manifest can have here:",
+      "<https://bedrock.dev/docs/stable/Addons#manifest.json>"
+    ],
+    "tags": "bedrock manifest json"
+  },
   "tag.json": {
     "message": [
       "```json",
@@ -244,6 +360,22 @@
     "message": "<https://discordapp.com/channels/154777837382008833/157097006500806656/681229223821705235>",
     "tags": "resourcepack resource pack template",
     "aliases": ["resourcepack template", "resource-pack template", "rpt"]
+  },
+  "bedrock vanilla packs": {
+    "message": [
+      "**Latest stable release**",
+      "Behavior pack: https://aka.ms/behaviorpacktemplate",
+      "Resource pack: https://aka.ms/resourcepacktemplate",
+      " ",
+      "**Latest beta release**",
+      "Behavior pack: https://aka.ms/minecraftbetabehaviors",
+      "Resource pack: https://aka.ms/minecraftbetaresources",
+      " ",
+      "**Other packs**",
+      "Particle examples: https://aka.ms/MCParticlesPack"
+    ],
+    "tags": "bedrock behavior resource pack packs template",
+    "aliases": [ "bedrock vanilla pack", "bvp" ]
   },
   "mccq": {
     "message": [
