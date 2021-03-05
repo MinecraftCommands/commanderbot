@@ -499,6 +499,10 @@
     "message": "https://www.reddit.com/r/MinecraftCommands/wiki/questions/randomnumber",
     "tags": "rng"
   },
+  "shootfacing": {
+    "message": "https://www.reddit.com/r/minecraftcommands/wiki/questions/shootfacing",
+    "tags": "position rotation projectile"
+  },
   "recruitment": {
     "message": "If your message was deleted from <#673857002216095755> or you were blocked from the channel, it means you were not following the standards. Read all of the pins in <#673857002216095755> and browse previous messages to better understand what the channel is about.",
     "tags": "recruitment"
