@@ -544,5 +544,23 @@
     ],
     "tags": "effect effects potion potions",
     "aliases": ["effect ids", "effects ids", "potion effect ids", "pei", "effects", "ei", "effect"]
+  },
+  "run execute": {
+    "message": "`run execute` is **never** necessary. You can remove it. Chained execute subcommands automatically transform to many `run execute`s anyway, and including them makes your code less readable.",
+    "tags": "execute",
+    "aliases": ["runexecute"]
+  },
+  "as @s": {
+    "message": "`execute as @s` is unnecessary. `as` simply changes the executor, i.e `@s`, to the matching entity. Therefore `as @s` does nothing.",
+    "tags": "execute"
+  },
+  "as vs at": {
+    "message": [
+      "`execute as` and `execute at` do different things. Both run the command once for each entity matched. However,",
+      "`execute as` runs the command with `@s` set to the entity it's running as",
+      "`execute at` runs the command with `~ ~ ~` set to the location of the entity it's running as"
+    ],
+    "tags": "execute",
+    "aliases": ["at vs as", "asat", "as at", "at as"]
   }
 }
