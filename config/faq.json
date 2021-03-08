@@ -546,7 +546,7 @@
     "aliases": ["effect ids", "effects ids", "potion effect ids", "pei", "effects", "ei", "effect"]
   },
   "run execute": {
-    "message": "`run execute` is redundant because it will converted directly into chained subcommands. It is generally recommended to avoid `run execute` to reduce the length of commanda and improve readability.",
+    "message": "`run execute` is redundant because it will be converted directly into chained subcommands. It is generally recommended to avoid `run execute` to reduce the length of commanda and improve readability.",
     "tags": "execute",
     "aliases": ["runexecute"]
   },
