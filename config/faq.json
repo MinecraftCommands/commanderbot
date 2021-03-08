@@ -546,19 +546,21 @@
     "aliases": ["effect ids", "effects ids", "potion effect ids", "pei", "effects", "ei", "effect"]
   },
   "run execute": {
-    "message": "`run execute` is **never** necessary. You can remove it. Chained execute subcommands automatically transform to many `run execute`s anyway, and including them makes your code less readable.",
+    "message": "`run execute` is redundant because it will converted directly into chained subcommands. It is generally recommended to avoid `run execute` to reduce the length of commanda and improve readability.",
     "tags": "execute",
     "aliases": ["runexecute"]
   },
   "as @s": {
-    "message": "`execute as @s` is unnecessary. `as` simply changes the executor, i.e `@s`, to the matching entity. Therefore `as @s` does nothing.",
-    "tags": "execute"
+    "message": "`execute as @s` is redundant because `as @s` merely changes the executing entity to refer to the exact same entity. It is generally recommended to avoid `as @a` to reduce the length of commands and avoid confusion.",
+    "tags": "execute",
+    "aliases": ["as self"]
   },
   "as vs at": {
     "message": [
-      "`execute as` and `execute at` do different things. Both run the command once for each entity matched. However,",
-      "`execute as` runs the command with `@s` set to the entity it's running as",
-      "`execute at` runs the command with `~ ~ ~` set to the location of the entity it's running as"
+      "Both `execute as` and `execute at` run the command once for each entity matched, but they are otherwise different:",
+      "- `execute as` changes `@s` to refer to the entity",
+      "- `execute at` changes `~ ~ ~` and `^ ^ ^` to refer to the location of the entity",
+      "- `execute at` also changes rotation and dimension to match that of the entity"
     ],
     "tags": "execute",
     "aliases": ["at vs as", "asat", "as at", "at as"]
