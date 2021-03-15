@@ -1,11 +1,11 @@
 {
   "raycasting": {
     "message": "Raycasting is a method of \"drawing\" a line from the head of a mob to detect where it looks at. It works by recursively executing a function positioned ^ ^ ^0.1, which make it run 0.1 blocks forward in the direction the mob is looking at. You can generate a raycasting datapack using https://skylinerw.com/vdvman1/raycast/ .",
-    "tags": "ray raycasting raycast"
+    "tags": "ray raycasting raycast java"
   },
   "shulker box": {
     "message": "https://discord.com/channels/154777837382008833/157097006500806656/655840284189392902",
-    "tags": "shulker box inventory"
+    "tags": "shulker box inventory java"
   },
   "help-chat": {
     "message": "https://discordapp.com/channels/154777837382008833/321747035403452417/685974609492705299",
@@ -43,9 +43,9 @@
     "message": "https://www.reddit.com/r/MinecraftCommands/wiki/debugging",
     "tags": "debugging"
   },
-  "game log": {
+  "output log": {
     "message": "https://i.imgur.com/aL8XRaq.png",
-    "tags": "game output log gamelog debugging"
+    "tags": "game output log gamelog debugging java"
   },
   "content log": {
     "message": "https://i.imgur.com/3Hcgkrx.png",
@@ -90,7 +90,7 @@
       "                        :page_facing_up: `tick.json`",
       "                    :open_file_folder: `game_events`"
     ],
-    "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout",
+    "tags": "datapack datapacks data pack packs data-pack data-packs structure format layout java",
     "aliases": ["datapack structure", "data-pack structure", "dps"]
   },
   "resource pack structure": {
@@ -132,7 +132,7 @@
       "                    :open_file_folder: `painting`",
       "                    :open_file_folder: `particle`"
     ],
-    "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout",
+    "tags": "resourcepack resourcepacks resource pack packs resource-pack resource-packs structure format layout java",
     "aliases": ["resourcepack structure", "resource-pack structure", "rps"]
   },
   "behavior pack structure": {
@@ -261,7 +261,7 @@
       "<https://github.com/skylinerw/guides/blob/master/java/advancements.md#processing-order-of-triggers>",
       "http://i.imgur.com/meB4V6V.png"
     ],
-    "tags": "processing trigger order triggers advancement tick timing chart diagram pipeline"
+    "tags": "processing trigger order triggers advancement tick timing chart diagram pipeline java"
   },
   "butts": {
     "message": "<:butts:541905359024160780>",
@@ -307,7 +307,7 @@
       "}",
       "```"
     ],
-    "tags": "pack mcmeta datapack data resourcepack resource"
+    "tags": "pack mcmeta datapack data resourcepack resource java"
   },
   "manifest.json": {
     "message": [
@@ -349,16 +349,16 @@
       "}",
       "```"
     ],
-    "tags": "tag json datapack tags groups group tick.json load.json"
+    "tags": "tag json datapack tags groups group tick.json load.json java"
   },
   "data pack template": {
     "message": "<https://discord.com/channels/154777837382008833/157097006500806656/785959995069562941>",
-    "tags": "datapack data pack template",
+    "tags": "datapack data pack template java",
     "aliases": ["datapack template", "data-pack template", "dpt"]
   },
   "resource pack template": {
     "message": "<https://discordapp.com/channels/154777837382008833/157097006500806656/681229223821705235>",
-    "tags": "resourcepack resource pack template",
+    "tags": "resourcepack resource pack template java",
     "aliases": ["resourcepack template", "resource-pack template", "rpt"]
   },
   "bedrock vanilla packs": {
@@ -406,7 +406,7 @@
       "Follow the guide to setup a mod development environment for Fabric: <https://fabricmc.net/wiki/tutorial:setup>",
       "If you're using VSCode, step (3) is a bit more involved: <https://fabricmc.net/wiki/tutorial:vscode_setup>"
     ],
-    "tags": "game code gamecode minecraft source yarn mappings decompile decompiled deobfuscate deobfuscated",
+    "tags": "game code gamecode minecraft source yarn mappings decompile decompiled deobfuscate deobfuscated java",
     "aliases": ["code"]
   },
   "bug report": {
@@ -475,7 +475,7 @@
   },
   "server data": {
     "message": "```java -cp server.jar net.minecraft.data.Main --all```",
-    "tags": "server data registries"
+    "tags": "server data registries java"
   },
   "color codes": {
     "message": [
@@ -547,12 +547,12 @@
   },
   "run execute": {
     "message": "`run execute` is redundant because it will be converted directly into chained subcommands. It is generally recommended to avoid `run execute` to reduce the length of commands and improve readability.",
-    "tags": "execute",
+    "tags": "execute java",
     "aliases": ["runexecute"]
   },
   "as @s": {
     "message": "`execute as @s` is redundant because `as @s` merely changes the executing entity to refer to the exact same entity. It is generally recommended to avoid `as @s` to reduce the length of commands and avoid confusion.",
-    "tags": "execute",
+    "tags": "execute java",
     "aliases": ["as self"]
   },
   "as vs at": {
@@ -562,7 +562,7 @@
       "- `at` changes `~ ~ ~` and `^ ^ ^` to refer to the location of the entity",
       "- `at` also changes rotation and dimension to match that of the entity"
     ],
-    "tags": "execute",
+    "tags": "execute java",
     "aliases": ["at vs as", "asat", "as at", "at as"]
   }
 }
