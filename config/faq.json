@@ -564,5 +564,10 @@
     ],
     "tags": "execute java",
     "aliases": ["at vs as", "asat", "as at", "at as"]
+  },
+  "model sizes": {
+    "message": "https://media.discordapp.net/attachments/734106483104415856/824712590461632572/unknown-47.png",
+    "tags": "head model size sizes",
+    "aliases": ["entity model sizes", "entity head sizes", "head sizes", "head model sizes", "entity head model sizes"]
   }
 }
