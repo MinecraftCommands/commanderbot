@@ -564,5 +564,10 @@
     ],
     "tags": "execute java",
     "aliases": ["at vs as", "asat", "as at", "at as"]
+  },
+  "model sizes": {
+    "message": "https://i.imgur.com/1WadY8F.png",
+    "tags": "java model models",
+    "aliases": ["entity model sizes", "entity head sizes", "head sizes", "head model sizes", "entity head model sizes"]
   }
 }
