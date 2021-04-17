@@ -569,5 +569,14 @@
     "message": "https://i.imgur.com/1WadY8F.png",
     "tags": "java model models",
     "aliases": ["entity model sizes", "entity head sizes", "head sizes", "head model sizes", "entity head model sizes"]
+  },
+  "air toggling": {
+    "message": ["The game clients interpolates entity positions across 1 second or so, this means that although the game knows where the entity is, it doesn't show at that position in favor of smoother looking motion.",
+      "Some entities, however, are exempt to this interpolation, like area_effect_clouds, items, and most projectiles.",
+      "We can make any entity ride of of these entities to bypass most of the interpolation, leaving around 4 ticks of it, down from 20. However, those entities do not update their positions by themselves.",
+      "So we have to force them to update, by changing their `Air` nbt. This can be either toggling between `{Air:1}` and `{Air:0}`, or by storing gametime into it."
+    ],
+    "tags": "java entity interpolation",
+    "aliases": ["aec air toggling", "remove interpolation", "air toggle", "aec air toggle"]
   }
 }
