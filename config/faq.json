@@ -364,15 +364,16 @@
   "bedrock vanilla packs": {
     "message": [
       "**Latest stable release**",
-      "Behavior pack: https://aka.ms/behaviorpacktemplate",
-      "Resource pack: https://aka.ms/resourcepacktemplate",
+      "Behavior pack: <https://aka.ms/behaviorpacktemplate>",
+      "Resource pack: <https://aka.ms/resourcepacktemplate>",
       " ",
       "**Latest beta release**",
-      "Behavior pack: https://aka.ms/minecraftbetabehaviors",
-      "Resource pack: https://aka.ms/minecraftbetaresources",
+      "Behavior pack: <https://aka.ms/minecraftbetabehaviors>",
+      "Resource pack: <https://aka.ms/minecraftbetaresources>",
       " ",
       "**Other packs**",
-      "Particle examples: https://aka.ms/MCParticlesPack"
+      "Particle examples: <https://aka.ms/MCParticlesPack>",
+      "Gametest examples: <https://github.com/microsoft/minecraft-gametests>"
     ],
     "tags": "bedrock behavior resource pack packs template",
     "aliases": [ "bedrock vanilla pack", "bvp" ]
