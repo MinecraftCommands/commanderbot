@@ -593,5 +593,12 @@
     "message": "https://imgur.com/a/clpWkSn",
     "tags": "marker aec area_effect_cloud armor_stand",
     "aliases": ["markers"]
+  },
+  "datapack tutorial": {
+    "message": [
+      "See https://minecraft.fandom.com/wiki/Tutorials/Creating_a_data_pack. If you want a data pack template, run `.faq datapack template`"
+    ],
+    "tags": "datapack data pack tutorial java",
+    "aliases": ["data pack tutorial", "dp tutorial"]
   }
 }
