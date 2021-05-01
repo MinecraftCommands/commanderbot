@@ -349,7 +349,7 @@
       "}",
       "```"
     ],
-    "tags": "tag json datapack tags groups group tick.json load.json java"
+    "tags": "tag json datapack tags groups group tick.json load.json"
   },
   "data pack template": {
     "message": "<https://discord.com/channels/154777837382008833/157097006500806656/785959995069562941>",
@@ -498,7 +498,8 @@
   },
   "rng": {
     "message": "https://www.reddit.com/r/MinecraftCommands/wiki/questions/randomnumber",
-    "tags": "rng"
+    "tags": "rng",
+    "aliases": ["lcg", "random"]
   },
   "shootfacing": {
     "message": "https://www.reddit.com/r/minecraftcommands/wiki/questions/shootfacing",
@@ -579,5 +580,26 @@
     ],
     "tags": "java entity interpolation",
     "aliases": ["aec air toggling", "remove interpolation", "air toggle", "aec air toggle"]
+  },
+  "execute if": {
+    "message": [
+      "Subcommands after `execute if` **do not** affect the statement at all. For example,",
+      "```",
+      "execute if entity @s in dimension overworld",
+      "```",
+      "Runs `if entity @s` (which is true), then sets the execution dimension to the overworld - it will run even if `@s` is not in the overworld."
+    ]
+  },
+  "marker": {
+    "message": "https://imgur.com/a/clpWkSn",
+    "tags": "marker aec area_effect_cloud armor_stand",
+    "aliases": ["markers"]
+  },
+  "datapack tutorial": {
+    "message": [
+      "See https://minecraft.fandom.com/wiki/Tutorials/Creating_a_data_pack. If you want a data pack template, run `.faq datapack template`"
+    ],
+    "tags": "datapack data pack tutorial java",
+    "aliases": ["data pack tutorial", "dp tutorial"]
   }
 }
