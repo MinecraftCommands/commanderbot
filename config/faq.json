@@ -578,5 +578,18 @@
     ],
     "tags": "java entity interpolation",
     "aliases": ["aec air toggling", "remove interpolation", "air toggle", "aec air toggle"]
+  },
+  "submitting faqs": {
+    "message": [
+      "Our faq system is based off of submitting pull requests on github. If you want to submit one, you'll need a github account. You also probably want a basic understanding of how git works, though the github editor is pretty intuitive if you choose to edit it there.",
+      "To submit an faq, follow the following steps:",
+      "1. Make a fork of the https://github.com/MinecraftCommands/commanderbot repositry",
+      "2. Edit the file `config/faq.json` to add your faq (see the other faqs for examples)",
+      "3. Commit your changes to your fork, with a helpful commit message",
+      "4. Create a pull request from your fork into the base repositry, with a helpful description of your changes",
+      "5. Notify Arcensoth in #meta"
+    ],
+    "tags": "meta",
+    "aliases": ["faq submission"]
   }
 }
