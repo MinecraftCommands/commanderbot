@@ -585,7 +585,7 @@
     "message": [
       "Subcommands after `execute if` **do not** affect the statement at all. For example,",
       "```",
-      "execute if entity @s in dimension overworld",
+      "execute if entity @s in overworld",
       "```",
       "Runs `if entity @s` (which is true), then sets the execution dimension to the overworld - it will run even if `@s` is not in the overworld."
     ]
