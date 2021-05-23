@@ -601,5 +601,13 @@
     ],
     "tags": "datapack data pack tutorial java",
     "aliases": ["data pack tutorial", "dp tutorial"]
+  },
+  "trilateration": {
+    "message": [
+      "Trilateration is a method of finding an unknown point given three known points and the distances from each known point to the unknown point. It is useful for finding structures with `/locate`.",
+      "<https://discord.com/channels/154777837382008833/157097006500806656/846088771493036072>"
+    ],
+    "tags": "trilateration triangulation structure locate",
+    "aliases": ["triangulation", "locate structure"]
   }
 }
