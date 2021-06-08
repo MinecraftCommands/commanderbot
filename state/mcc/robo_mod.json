@@ -152,6 +152,35 @@
       ]
     },
     {
+      "name": "FPS Booster Virus",
+      "description": "Delete FPS Booster Virus message and tag the author",
+      "log_emoji": ":microbe:",
+      "log_icon": "https://media.discordapp.net/attachments/247113871482028042/851808288106086441/dragfrom.202106081402009687.png",
+      "log_color": "#55D888",
+      "trigger_type": "MESSAGE",
+      "conditions": [
+        {
+          "type": "MESSAGE_CONTAINS_ANY_OF",
+          "ignore_case": false,
+          "normalize_unicode": false,
+          "matches": [
+            "FpsBoost.exe",
+			"very cool FPS BOOSTER",
+			"threw off a trial version"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_ROLES_TO_AUTHOR",
+          "roles": ["751895394694201355"]
+        },
+        {
+          "type": "DELETE_MESSAGE"
+        }
+      ]
+    },
+    {
       "name": "Block new user media",
       "description": "Block newly-created accounts from posting external media",
       "log_emoji": ":poop:",
