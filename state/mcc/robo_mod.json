@@ -181,6 +181,37 @@
       ]
     },
     {
+      "name": "Fake Steam URL",
+      "description": "Delete messages with fake Steam URls",
+      "log_emoji": ":detective:",
+      "log_icon": "https://cdn.discordapp.com/attachments/704812582900465665/854246457691734016/detective.png",
+      "log_color": "#67c1f5",
+      "trigger_type": "MESSAGE",
+      "conditions": [
+        {
+          "type": "MESSAGE_CONTAINS_ANY_OF",
+          "ignore_case": true,
+          "normalize_unicode": false,
+          "matches": [
+            "streancommunuty.ru"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "LOG_CUSTOM",
+          "content": "Deleted a fake Steam URL from {author.mention} in {channel.mention}."
+        },
+        {
+          "type": "ADD_ROLES_TO_AUTHOR",
+          "roles": ["751895394694201355"]
+        },
+        {
+          "type": "DELETE_MESSAGE"
+        }
+      ]
+    },
+    {
       "name": "Block new user media",
       "description": "Block newly-created accounts from posting external media",
       "log_emoji": ":poop:",
