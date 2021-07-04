@@ -303,6 +303,33 @@
           "content": "Deleted a server invite from {author.mention} in {channel.mention}."
         }
       ]
+    },
+    {
+      "name": "CSGO Spam",
+      "description": "Delete CSGO spam and mute the author",
+      "log_emoji": ":gun:",
+      "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/861244106683318312/pistol_1f52b.png",
+      "log_color": "#FDD888",
+      "trigger_type": "MESSAGE",
+      "conditions": [
+        {
+          "type": "MESSAGE_CONTAINS_ANY_OF",
+          "ignore_case": false,
+          "normalize_unicode": false,
+          "matches": [
+            "https://i.imgur.com/SAvJYv5.png"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_ROLES_TO_AUTHOR",
+          "roles": ["751895394694201355"]
+        },
+        {
+          "type": "DELETE_MESSAGE"
+        }
+      ]
     }
   ]
 }
