@@ -332,8 +332,8 @@
       ]
     },
     {
-      "name": "Remind",
-      "description": "Somebody probably used the reminder ribbon",
+      "name": "Reminder reaction",
+      "description": "Somebody used the reminder ribbon as a reaction",
       "log_channel": "614509905889460235",
       "log_emoji": ":reminder_ribbon:",
       "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/863453511849213952/reminder-ribbon_1f397-fe0f.png",
@@ -356,7 +356,31 @@
         },
         {
           "type": "LOG_CUSTOM",
-          "content": "{actor.mention} reminded {author.mention} in {channel.mention}."
+          "content": "{actor.mention} used the reminder ribbon (reaction) in {channel.mention}."
+        }
+      ]
+    },
+    {
+      "name": "Reminder message",
+      "description": "Somebody used the reminder ribbon as a message",
+      "log_channel": "614509905889460235",
+      "log_emoji": ":reminder_ribbon:",
+      "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/863453511849213952/reminder-ribbon_1f397-fe0f.png",
+      "log_color": "#FFCD4C",
+      "trigger_type": "REACTION_ADDED",
+      "conditions": [
+        {
+          "type": "AUTHOR_IS_NOT_SELF"
+        },
+        {
+          "type": "MESSAGE_IS_EXACTLY",
+          "content": ["🎗️"]
+        }
+      ],
+      "actions": [
+        {
+          "type": "LOG_CUSTOM",
+          "content": "{actor.mention} used the reminder ribbon (message) in {channel.mention}."
         }
       ]
     }
