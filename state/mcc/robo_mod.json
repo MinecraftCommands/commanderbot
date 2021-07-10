@@ -367,7 +367,7 @@
       "log_emoji": ":reminder_ribbon:",
       "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/863453511849213952/reminder-ribbon_1f397-fe0f.png",
       "log_color": "#FFCD4C",
-      "trigger_type": "REACTION_ADDED",
+      "trigger_type": "MESSAGE_SENT",
       "conditions": [
         {
           "type": "AUTHOR_IS_NOT_SELF"
