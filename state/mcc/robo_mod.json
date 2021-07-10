@@ -330,6 +330,35 @@
           "type": "DELETE_MESSAGE"
         }
       ]
+    },
+    {
+      "name": "Remind",
+      "description": "Somebody probably used the reminder ribbon",
+      "log_channel": "614509905889460235",
+      "log_emoji": ":reminder_ribbon:",
+      "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/863453511849213952/reminder-ribbon_1f397-fe0f.png",
+      "log_color": "#FFCD4C",
+      "trigger_type": "REACTION_ADDED",
+      "conditions": [
+        {
+          "type": "AUTHOR_IS_NOT_SELF"
+        },
+        {
+          "type": "REACTION_MATCHES",
+          "reactions": ["🎗️"],
+          "first_only": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_REACTIONS",
+          "reactions": ["🎗️"]
+        },
+        {
+          "type": "LOG_CUSTOM",
+          "content": "{actor.mention} reminded {author.mention} in {channel.mention}."
+        }
+      ]
     }
   ]
 }
