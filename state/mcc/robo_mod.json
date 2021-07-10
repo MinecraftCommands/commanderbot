@@ -374,7 +374,7 @@
         },
         {
           "type": "MESSAGE_IS_EXACTLY",
-          "content": ["🎗️"]
+          "content": "🎗️"
         }
       ],
       "actions": [
