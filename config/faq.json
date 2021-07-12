@@ -48,7 +48,7 @@
     "tags": "game output log gamelog debugging java"
   },
   "content log": {
-    "message": "https://i.imgur.com/3Hcgkrx.png",
+    "message": "https://cdn.discordapp.com/attachments/704812582900465665/863882765962444850/content_log.png",
     "tags": "bedrock content-log output log debugging"
   },
   "data pack structure": {
@@ -320,7 +320,7 @@
       "    \"description\": \"A description for your pack\",",
       "    \"uuid\": \"66c6e9a8-3093-462a-9c36-dbb052165822\",",
       "    \"version\": [ 1, 0, 0 ],",
-      "    \"min_engine_version\": [ 1, 16, 200 ]",
+      "    \"min_engine_version\": [ 1, 17, 0 ]",
       "  },",
       "  \"modules\": [",
       "    {",
