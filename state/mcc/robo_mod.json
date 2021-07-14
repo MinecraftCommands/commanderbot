@@ -283,14 +283,24 @@
       "conditions": [
         {
           "type": "MESSAGE_CONTAINS_ANY_OF",
-          "ignore_case": false,
-          "normalize_unicode": false,
+          "ignore_case": true,
+          "normalize_unicode": true,
           "matches": [
+            "I'm done with CSGO and give all my inventory",
+            "the first three who send a trade - I will give a knife",
             "https://i.imgur.com/SAvJYv5.png",
             ".ru/tradeofer/new/?partner=",
             ".ru/tradeoffer/new/?partner=",
+            ".ru/trade0fer/new/?partner=",
+            ".ru/trade0ffer/new/?partner=",
             ".com/tradeofer/new/?partner=",
-            ".com/tradeoffer/new/?partner="
+            ".com/tradeoffer/new/?partner=",
+            ".com/trade0fer/new/?partner=",
+            ".com/trade0ffer/new/?partner=",
+            ".ru/trade0ffer/?partner=",
+            ".ru/trade0fer/?partner=",
+            ".com/trade0ffer/?partner=",
+            ".com/trade0fer/?partner="
           ]
         }
       ],
