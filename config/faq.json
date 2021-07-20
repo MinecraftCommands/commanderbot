@@ -258,8 +258,8 @@
   },
   "trigger order": {
     "message": [
-      "<https://github.com/skylinerw/guides/blob/master/java/advancements.md#processing-order-of-triggers>",
-      "http://i.imgur.com/meB4V6V.png"
+      "Newer: <https://gist.github.com/misode/77ee37217a69a3c74032679d8084d6c6#file-tick_order-md>",
+      "Older: <https://github.com/skylinerw/guides/blob/master/java/advancements.md#processing-order-of-triggers>"
     ],
     "tags": "processing trigger order triggers advancement tick timing chart diagram pipeline java"
   },
