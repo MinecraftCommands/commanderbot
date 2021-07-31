@@ -275,7 +275,7 @@
     },
     {
       "name": "CSGO, Discord nitro, and Steam summer sale spam",
-      "description": "Deletes spam and mute the author",
+      "description": "Delete spam and mute the author",
       "log_emoji": ":gun:",
       "log_icon": "https://cdn.discordapp.com/attachments/695848588684820540/861244106683318312/pistol_1f52b.png",
       "log_color": "#FDD888",
