@@ -152,6 +152,33 @@
       ]
     },
     {
+      "name": "Phishing URLs",
+      "description": "Delete phishing attempts and tag the author",
+      "log_emoji": ":fishing_pole_and_fish:",
+      "log_icon": "https://cdn.discordapp.com/attachments/775845864127856680/873780992375152640/unknown.png",
+      "log_color": "#FDD888",
+      "trigger_type": "MESSAGE",
+      "conditions": [
+        {
+          "type": "MESSAGE_CONTAINS_ANY_OF",
+          "ignore_case": true,
+          "normalize_unicode": false,
+          "matches": [
+            "discordapps.gift"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_ROLES_TO_AUTHOR",
+          "roles": ["751895394694201355"]
+        },
+        {
+          "type": "DELETE_MESSAGE"
+        }
+      ]
+    },
+    {
       "name": "FPS Booster Virus",
       "description": "Delete FPS Booster Virus message and tag the author",
       "log_emoji": ":microbe:",
