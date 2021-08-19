@@ -85,6 +85,8 @@
             "tweet for it: https://img",
             "hope its okey that im posting",
             "Airdrop Time!",
+            "Airdrop Discord",
+            "Airdrop Nitro",
             "libra presale",
             "uniswap airdrop",
             "uni airdrop",
@@ -164,7 +166,14 @@
           "ignore_case": true,
           "normalize_unicode": false,
           "matches": [
-            "discordapps.gift"
+            "discordapps.gift",
+            "discord-nitro.link",
+            "dicsord.net",
+            "discord.me.uk",
+            "dirscod.com",
+            "discord-gifts",
+            "dirscod.gift",
+            "bit.ly/3ridwS1"
           ]
         }
       ],
@@ -188,12 +197,14 @@
       "conditions": [
         {
           "type": "MESSAGE_CONTAINS_ANY_OF",
-          "ignore_case": false,
+          "ignore_case": true,
           "normalize_unicode": false,
           "matches": [
             "FpsBoost.exe",
-			"very cool FPS BOOSTER",
-			"threw off a trial version"
+            "very cool FPS BOOSTER",
+            "threw off a trial version",
+            "check out my new game! Password: 123",
+            "mega.nz/file/mt021C4Z#f-kJMtVP704Qqb3-anoWFmUnMTYGzhySG7x6itHDAJU"
           ]
         }
       ],
@@ -322,18 +333,32 @@
           "matches": [
             "I'm done with CSGO and give all my inventory",
             "I'm leaving CS:GO",
+            "Hello I am leaving CS:GO",
+            "I'm tired of CSGO, I'm leaving",
+            "i'm leaving f*cking CS:GO to CoD",
             "I leave cs",
+            "i am going to the army",
             "the first three who send a trade - I will give a knife",
+            "I will give away my 3 knifes",
+            "Add me, throw the trade, I will accept all trades",
+            "Don't be greedy and take few skins",
             "give all the top inventory",
+            "not enough for everyone",
             "send a trade offer",
             "go and give all my inventory",
             "Discord Nitro for Free - Steam Store",
             "Dicord nitro distribution",
+            "Discord Nitro code from the Promotion",
+            "Hurry up to get Discord Nitro",
             "the summer sale on Steam has begun",
             "The promocode is automatically activated",
             "Have time to pick up Rust from the link",
+            "+rep",
             "https://i.imgur.com/SAvJYv5.png",
             "https://i.imgur.com/JR4qP6j.png",
+            "https://i.imgur.com/5gwLaOZ.png",
+            "https://i.imgur.com/r9EWkux.png",
+            "https://prnt.sc/1np19fk",
             "https",
             "http",
             ".com",
