@@ -15,93 +15,31 @@
   ],
   "staff_roles": ["154919514553712640", "247061977136889856"],
   "extensions": [
-    "cogbot.cogs.join_leave",
-    "cogbot.cogs.robo_mod",
-    "cogbot.extensions.about",
-    "cogbot.extensions.say",
-    "cogbot.extensions.react",
-    "cogbot.extensions.vote",
-    "cogbot.extensions.nominate",
-    "cogbot.extensions.kick",
+    "!cogbot.cogs.join_leave",
+    "!cogbot.cogs.robo_mod",
+    "!cogbot.extensions.about",
+    "!cogbot.extensions.say",
+    "!cogbot.extensions.react",
+    "!cogbot.extensions.vote",
+    "!cogbot.extensions.nominate",
+    "!cogbot.extensions.kick",
     "!cogbot.extensions.helpchat",
-    "cogbot.extensions.invite",
-    "cogbot.extensions.faq",
+    "!cogbot.extensions.invite",
+    "!cogbot.extensions.faq",
     "cogbot.extensions.mccq",
     "cogbot.extensions.mcc12",
     "cogbot.extensions.mcnbtdoc",
     "cogbot.extensions.mcblock",
-    "cogbot.extensions.jira",
-    "cogbot.extensions.quote",
-    "cogbot.extensions.playing",
+    "!cogbot.extensions.jira",
+    "!cogbot.extensions.quote",
+    "!cogbot.extensions.playing",
     "cogbot.extensions.status",
     "cogbot.extensions.nick",
     "cogbot.extensions.custodian",
-    "cogbot.extensions.lmgtfy",
+    "!cogbot.extensions.lmgtfy",
     "cogbot.extensions.ping"
   ],
   "extension_state": {
-    "cogbot.cogs.join_leave": {
-      "servers": {
-        "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/join_leave.json"
-      }
-    },
-    "cogbot.cogs.robo_mod": {
-      "servers": {
-        "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/robo_mod.json"
-      }
-    },
-    "cogbot.extensions.helpchat": {
-      "servers": {
-        "mcc": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/state/mcc/helpchat.json"
-      }
-    },
-    "cogbot.extensions.nominate": {
-      "servers": {
-        "mcc": {
-          "help_channels": [
-            "717396066126790716",
-            "685962521076563968",
-            "542149104222863371",
-            "187655051219697664",
-            "689290462468898842",
-            "689290445473185855",
-            "702245837840842763",
-            "685962574205943839",
-            "702245866785996850",
-            "702245886519935018",
-            "689290407028195486",
-            "717395979288182794",
-            "602224240984588290",
-            "338040270832795669",
-            "155701556833026048",
-            "689290283397152824",
-            "717395898014892033",
-            "685962361726959851",
-            "702245708979503204",
-            "702245683314556978",
-            "717396012255150111",
-            "154778900835205120",
-            "689290423407083535",
-            "685962443255709699",
-            "717396041862873140"
-          ],
-          "other_channels": [
-            "154777837382008833",
-            "593812273164976166",
-            "259800273445191690",
-            "469622918402539520",
-            "306175724942000128",
-            "734106483104415856"
-          ]
-        }
-      }
-    },
-    "cogbot.extensions.faq": {
-      "database": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/config/faq.json"
-    },
-    "cogbot.extensions.invite": {
-      "database": "https://raw.githubusercontent.com/MinecraftCommands/commanderbot/master/config/invite.json"
-    },
     "cogbot.extensions.mcnbtdoc": {
       "version_database": "https://raw.githubusercontent.com/Yurihaia/mc-nbtdoc/{}-gen/build/generated.json",
       "database": "https://raw.githubusercontent.com/Yurihaia/mc-nbtdoc/generated/build/generated.json",
@@ -112,20 +50,6 @@
     },
     "cogbot.extensions.mcblock": {
       "database": "https://raw.githubusercontent.com/Arcensoth/mcdata/master/generated/reports/blocks.json"
-    },
-    "cogbot.extensions.jira": {
-      "base_url": "https://bugs.mojang.com",
-      "default_project": "MC"
-    },
-    "cogbot.extensions.about": {
-      "contributors": ["135616361157099520", "176304230976454656"],
-      "repos": [
-        "https://github.com/MinecraftCommands/commanderbot",
-        "https://github.com/Arcensoth/mcdata",
-        "https://github.com/Ersatz77/bedrock-data",
-        "https://github.com/Yurihaia/mc-nbtdoc",
-        "https://github.com/Yurihaia/nbtdoc-rs"
-      ]
     },
     "cogbot.extensions.mccq": {
       "cooldown_rate": 5,
@@ -153,16 +77,6 @@
           "roles": ["154919580563800064"],
           "free_for_all": 60
         }
-      }
-    },
-    "cogbot.extensions.proto": {
-      "servers": {
-        "mcc": {
-          "id": "154777837382008833"
-        }
-      },
-      "bot_roles": {
-        "mcc": ["611766264553275393", "398571321354747904"]
       }
     }
   }
