@@ -17,7 +17,7 @@
   "extensions": [
     "!cogbot.cogs.join_leave",
     "!cogbot.cogs.robo_mod",
-    "cogbot.extensions.about",
+    "!cogbot.extensions.about",
     "!cogbot.extensions.say",
     "!cogbot.extensions.react",
     "cogbot.extensions.vote",
