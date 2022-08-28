@@ -19,28 +19,14 @@
     "247061977136889856"
   ],
   "extensions": [
-    "!cogbot.cogs.join_leave",
-    "!cogbot.cogs.robo_mod",
-    "!cogbot.extensions.about",
-    "!cogbot.extensions.say",
-    "!cogbot.extensions.react",
     "cogbot.extensions.vote",
-    "!cogbot.extensions.nominate",
-    "!cogbot.extensions.kick",
-    "!cogbot.extensions.helpchat",
-    "!cogbot.extensions.invite",
-    "!cogbot.extensions.faq",
-    "!cogbot.extensions.mccq",
-    "!cogbot.extensions.mcc12",
     "cogbot.extensions.mcnbtdoc",
     "cogbot.extensions.mcblock",
     "cogbot.extensions.jira",
     "cogbot.extensions.quote",
-    "!cogbot.extensions.playing",
     "cogbot.extensions.status",
     "cogbot.extensions.nick",
     "cogbot.extensions.custodian",
-    "!cogbot.extensions.lmgtfy",
     "cogbot.extensions.ping"
   ],
   "extension_state": {
