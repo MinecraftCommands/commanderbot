@@ -30,8 +30,8 @@
     "!cogbot.extensions.helpchat",
     "!cogbot.extensions.invite",
     "!cogbot.extensions.faq",
-    "cogbot.extensions.mccq",
-    "cogbot.extensions.mcc12",
+    "!cogbot.extensions.mccq",
+    "!cogbot.extensions.mcc12",
     "cogbot.extensions.mcnbtdoc",
     "cogbot.extensions.mcblock",
     "cogbot.extensions.jira",
@@ -54,19 +54,6 @@
     },
     "cogbot.extensions.mcblock": {
       "database": "https://raw.githubusercontent.com/Arcensoth/mcdata/master/generated/reports/blocks.json"
-    },
-    "cogbot.extensions.mccq": {
-      "cooldown_rate": 5,
-      "cooldown_per": 10,
-      "max_results": 10,
-      "help_url": "https://minecraft.gamepedia.com/Commands/{command}",
-      "database": "https://raw.githubusercontent.com/Arcensoth/mcdata",
-      "bedrock_database": "https://raw.githubusercontent.com/Ersatz77/bedrock-data",
-      "presence_version": "master",
-      "show_versions": ["master"],
-      "version_labels": {
-        "master": "{actual} (latest)"
-      }
     },
     "cogbot.extensions.nick": {
       "servers": {
